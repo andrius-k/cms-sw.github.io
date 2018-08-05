@@ -1,0 +1,72 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1533195124,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 251897026,
+          "checksum": "adler32:f5b67403,cksum:2175558761",
+          "creation_time": 1530704914.8751099,
+          "id": 139643671,
+          "name": "/store/relval/CMSSW_10_2_0_pre6/RelValSingleGammaPt35/GEN-SIM/102X_upgrade2018_realistic_v7-v2/10000/D2CE5BBB-7E7F-E811-8806-0025905A6076.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 251897026,
+          "time_create": 1530704914.8751099
+        }
+      ],
+      "qhash": "e0bbf77149baad815c4a6a4d4f8273b2"
+    }
+  ],
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "|"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "e0bbf77149baad815c4a6a4d4f8273b2",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort | unique",
+    "query": "file dataset=/RelValSingleGammaPt35/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM site=T2_CH_CERN | grep file.name | sort | unique",
+    "spec": {
+      "dataset": "/RelValSingleGammaPt35/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1533195123
+  },
+  "nresults": 1,
+  "status": "ok",
+  "timestamp": 1533195124
+}

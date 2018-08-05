@@ -1,0 +1,947 @@
+{
+    "base_branch": "CMSSW_10_3_X", 
+    "release_name": "CMSSW_10_3_ROOT614_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-08-03-2300-->CMSSW_10_3_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2018-08-03-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "da08f3834f5e47481e6c254e862f2fb25d46d0b5", 
+                    "title": "DD CLHEP Units Cleanup", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24198", 
+                    "number": "24198", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
+                    "title": "DD Core Algorithms Cleanup", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24177", 
+                    "number": "24177", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
+                    "title": "Documentation for L1Trigger/CSCTriggerPrimitives", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24204", 
+                    "number": "24204", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dildick"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_X", 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-31-2300/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-08-02-2300-->CMSSW_10_3_ROOT614_X_2018-08-03-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/fri/10.3.ROOT614-fri-23/CMSSW_10_3_ROOT614_X_2018-08-03-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-08-03-2300-0000", 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/fri/10.3.ROOT614-fri-23/CMSSW_10_3_ROOT614_X_2018-08-03-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2522, 
+                        "known_failed": 5, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "fc592e914867b656ca69a800cfcc1b56a7d559f9", 
+                    "title": "Remove obsolete code and configurations in CSC local trigger", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24171", 
+                    "number": "24171", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dildick"
+                }, 
+                {
+                    "hash": "751a8e5790119cad38362a6d2b13c3bc7674300b", 
+                    "title": "Phase2-hgx132 Bug fix for HGCal post TDR geometry", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24134", 
+                    "number": "24134", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "14314e0c5ed65df692399aea2d506a9ce100aa8b", 
+                    "title": "Make VLumiRange be only strings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24169", 
+                    "number": "24169", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ericvaandering"
+                }, 
+                {
+                    "hash": "1c54d342fb0da35dc711ec229c86f4936105332b", 
+                    "title": "DD Core Cleanup", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24153", 
+                    "number": "24153", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "40ba6b93772752f290ca50c232c1ecd7675ab5bb", 
+                    "title": "L1T DQM - Disable ugmt muon spectrum quality tests for eta and pt", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24163", 
+                    "number": "24163", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thomreis"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-08-03-2300", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/fri/10.3.ROOT614-fri-23/CMSSW_10_3_ROOT614_X_2018-08-03-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 3
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/fri/10.3.ROOT614-fri-23/CMSSW_10_3_ROOT614_X_2018-08-03-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-31-2300/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-08-01-2300-->CMSSW_10_3_ROOT614_X_2018-08-02-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3.ROOT614-thu-23/CMSSW_10_3_ROOT614_X_2018-08-02-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-08-02-2300-0000", 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3.ROOT614-thu-23/CMSSW_10_3_ROOT614_X_2018-08-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2526, 
+                        "known_failed": 5, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "e31f627f1ffc5afe65170467a6b1883b00e25ed6", 
+                    "title": "Phase2-hgx134 Temporary fix to validation code", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24160", 
+                    "number": "24160", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "19471c44cd2cbe9fc9452f3cc2b397c9482c877f", 
+                    "title": "update relval input strings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23955", 
+                    "number": "23955", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "prebello"
+                }, 
+                {
+                    "hash": "2e484338a421a01b97701f6e3a5418c9dbf117b3", 
+                    "title": "Protecting E/gamma Scale and Smearing from \"nan\" energies : 103X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24093", 
+                    "number": "24093", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Sam-Harper"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-08-02-2300", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3.ROOT614-thu-23/CMSSW_10_3_ROOT614_X_2018-08-02-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3.ROOT614-thu-23/CMSSW_10_3_ROOT614_X_2018-08-02-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-31-2300/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-07-31-2300-->CMSSW_10_3_ROOT614_X_2018-08-01-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.ROOT614-wed-23/CMSSW_10_3_ROOT614_X_2018-08-01-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-08-01-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.ROOT614-wed-23/CMSSW_10_3_ROOT614_X_2018-08-01-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2524, 
+                        "known_failed": 6, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "2ea1b29bace24f3a4dc5e5552ea625ddc0030314", 
+                    "title": "Fixed static analizer warnings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24144", 
+                    "number": "24144", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "civanch"
+                }, 
+                {
+                    "hash": "17693660d91cbdd55ac061b62ef2739653aad5c5", 
+                    "title": "Made L1TStage2Layer2Producer a stream module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24145", 
+                    "number": "24145", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "d8878cec5067b3437bbec37998bbfde4616351f8", 
+                    "title": "adding NANO step to 2018 MC workflows", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24141", 
+                    "number": "24141", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabozzi"
+                }, 
+                {
+                    "hash": "47a287607b0bcaf37c31e830c86a7ac062cd62fa", 
+                    "title": "Fix for MuonIDFilterProducerForHLT (10_3)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24130", 
+                    "number": "24130", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "9fd8aa0058042e51e24016a5a94affdd3f92117d", 
+                    "title": "Made CSCDigiToRawModule a global module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24052", 
+                    "number": "24052", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "2672086c30052fccba900a2e88a8b1bdeadb80fc", 
+                    "title": "Made L1TCaloLayer1 a stream module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24148", 
+                    "number": "24148", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "e784bc3f46226eeef9401a31efecb284e3cd55cf", 
+                    "title": "Made DTTrigProd a stream module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24121", 
+                    "number": "24121", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "da85f01219f23bd620f15fdb8ab75f22d1b8e384", 
+                    "title": "Speedup MET significance calculation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24135", 
+                    "number": "24135", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kpedro88"
+                }, 
+                {
+                    "hash": "b60b10bcf38024017e6de5edd4f23309c7e1f4e9", 
+                    "title": "Make L1TMuonOverlapTrackProducer a one module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24133", 
+                    "number": "24133", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "1330cc306c7534aa8b1d28cda77dc72db171c27a", 
+                    "title": "Bugfix (typo) on PixelPhase1 Online client", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24139", 
+                    "number": "24139", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "arossi83"
+                }, 
+                {
+                    "hash": "e1cd9324f8ae00194fa5bd341968ed8937014a06", 
+                    "title": "Make SiPixelDigiToRaw a global module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24057", 
+                    "number": "24057", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "611a792e4f986d9184d1ac5300a592e392fc7f42", 
+                    "title": "Fix bug in FormulaEvaluator involving parenthesis and precedence order", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24049", 
+                    "number": "24049", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "5317f93edbe1f2f9986cb8e74b814cb982e46376", 
+                    "title": "Fix dereference of PVOrig (master)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24138", 
+                    "number": "24138", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gpetruc"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-08-01-2300", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.ROOT614-wed-23/CMSSW_10_3_ROOT614_X_2018-08-01-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.ROOT614-wed-23/CMSSW_10_3_ROOT614_X_2018-08-01-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-31-2300/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-07-30-2300-->CMSSW_10_3_ROOT614_X_2018-07-31-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3.ROOT614-tue-23/CMSSW_10_3_ROOT614_X_2018-07-31-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-07-31-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3.ROOT614-tue-23/CMSSW_10_3_ROOT614_X_2018-07-31-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2504, 
+                        "known_failed": 6, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "391f25711342aee49c8d60f6b410321f5c54bce4", 
+                    "title": "Print function migration for PhysicsTools_PatAlgos", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24118", 
+                    "number": "24118", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "fd7282a417af1846284a4a17b28166d7172e645b", 
+                    "title": "Print function migration for PhysicsTools_SelectorUtils", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24090", 
+                    "number": "24090", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "59818859f3b080b32367b2862bb0ac1ec9d10617", 
+                    "title": "[10.3.X] HP BS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23818", 
+                    "number": "23818", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lpernie"
+                }, 
+                {
+                    "hash": "b9e82810c43c4e1e363c2b1580eeb5d415662e6c", 
+                    "title": "Add warning for NaN values in DeepFlavourJetTagsProducer for DeepCSV", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23640", 
+                    "number": "23640", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "eacoleman"
+                }, 
+                {
+                    "hash": "7d91f4662f27fc98b11280bcf5678ac6d5513781", 
+                    "title": "Phase2-hgx133 Update the validation scripts", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24136", 
+                    "number": "24136", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "fda3e7aeabe99efddb226d71abdf0252f882be73", 
+                    "title": "Run2-alca136 Update the macros needed for IsoTrack Calibration of HCAL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24053", 
+                    "number": "24053", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "f6a01f7759fe5056f259dea4455fd049b0df3bca", 
+                    "title": "fix obsolete raise usage", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24124", 
+                    "number": "24124", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "fb22df7a6732583190e36512be4af6238defe224", 
+                    "title": "AMPT bug (related to #23573) fixing ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24125", 
+                    "number": "24125", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wouf"
+                }, 
+                {
+                    "hash": "31ad4410cd3016bed32694c790d8f98f7034e19c", 
+                    "title": "Plot module residuals", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23723", 
+                    "number": "23723", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "tagay"
+                }, 
+                {
+                    "hash": "cede6cc8579a90318e071d099b26374573f41822", 
+                    "title": "Print function migration for PhysicsTools_PatUtils", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24087", 
+                    "number": "24087", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "d1c19cfe0ddac91075fe27c1e92ca179f73ed677", 
+                    "title": "Minor updates to tracking MC validation scripts", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24132", 
+                    "number": "24132", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-07-31-2300", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3.ROOT614-tue-23/CMSSW_10_3_ROOT614_X_2018-07-31-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 680
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3.ROOT614-tue-23/CMSSW_10_3_ROOT614_X_2018-07-31-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-29-0000/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-07-29-0000-->CMSSW_10_3_ROOT614_X_2018-07-30-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-07-30-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-07-30-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-07-30-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2506, 
+                        "known_failed": 6, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "40b89fdfd56355190b18444f6d5eb981b229a21f", 
+                    "title": "Print function migration for PhysicsTools_PatExamples", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24119", 
+                    "number": "24119", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "6fe98b41e0ecd2f6c30aa2cc1fdbec61775855bd", 
+                    "title": "Print function migration for HLTrigger_HLTanalyzers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24109", 
+                    "number": "24109", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "bba735a4d6233ba2a33af0d431f74df2e1d1eec9", 
+                    "title": "Print function migration for PhysicsTools_Utilities", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24092", 
+                    "number": "24092", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "a3a0e2664312bb9aed8affe123603dad10c992a9", 
+                    "title": "DD VecGeom Test", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23840", 
+                    "number": "23840", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "75952013d358c5c4bbb4a60ab8606c12a36d66c8", 
+                    "title": "Print function migration for HLTrigger_Tools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24111", 
+                    "number": "24111", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "0c092d2c50dd8168b8a13e05bfd5022098fd424a", 
+                    "title": "Print function migration for HLTrigger_HLTfilters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24110", 
+                    "number": "24110", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "e54b7f9f5486573993c692ab440989d095d3445c", 
+                    "title": "Print function migration for PhysicsTools_Heppy", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24113", 
+                    "number": "24113", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "1d3aa95eefc05d7f1f18276fe81b5a6753edd765", 
+                    "title": "Print function migration for PhysicsTools_FWLite", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24112", 
+                    "number": "24112", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "946c9e8c627c27627a0160f0e969e96bc64bf989", 
+                    "title": "Print function migration for PhysicsTools_IsolationAlgos", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24115", 
+                    "number": "24115", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "98b79cd45f6f7b822286784f7c3420ba68348fd8", 
+                    "title": "TRK@HLT DQM: add SIP plots for final tracks collection", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24107", 
+                    "number": "24107", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mtosi"
+                }, 
+                {
+                    "hash": "fd53ec684ce6562f29350f88a225689bf8523c00", 
+                    "title": "Print function migration for PhysicsTools_NanoAOD", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24117", 
+                    "number": "24117", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "d2debcd1e0778e37755edd61cfc350bb5d4db3a5", 
+                    "title": "Print function migration for PhysicsTools_JetMCAlgos", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24116", 
+                    "number": "24116", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "81bfa197eb68c3a35b6134ee996720c0af9b416b", 
+                    "title": "Print function migration for PhysicsTools_RooStatsCms", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24089", 
+                    "number": "24089", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "61a68d134f53819a5be674c5d26286b2c2ff62fc", 
+                    "title": "Print function migration for PhysicsTools_PythonAnalysis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24088", 
+                    "number": "24088", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "cee4f83f06d537fb7381d32d9cfd6c0b0d577b47", 
+                    "title": "Print function migration for PhysicsTools_TagAndProbe", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24091", 
+                    "number": "24091", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "197a723af82d0c022078a411526a4e7b81faffde", 
+                    "title": "python modernize 2to3 tool fix_input", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23453", 
+                    "number": "23453", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "9652c3e992263fc8d4f94bc29a2bdc0b49b7d194", 
+                    "title": "HGCal v9 fixes for egamma", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23987", 
+                    "number": "23987", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kpedro88"
+                }, 
+                {
+                    "hash": "8d6784dda62eff00538927b7e4524330a8c8227b", 
+                    "title": "Print function migration for PhysicsTools_HeppyCore", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24114", 
+                    "number": "24114", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-07-30-2300", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-07-30-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-07-30-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [
+                "slc6_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc6_amd64_gcc700": "IB/CMSSW_10_3_ROOT614_X_2018-07-29-0000/slc6_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_3_X", 
+            "compared_tags": "CMSSW_10_3_ROOT614_X_2018-07-29-0000-->CMSSW_10_3_ROOT614_X_2018-07-29-0000", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3.ROOT614-sun-00/CMSSW_10_3_ROOT614_X_2018-07-29-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2018-07-29-0000-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3.ROOT614-sun-00/CMSSW_10_3_ROOT614_X_2018-07-29-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2506, 
+                        "known_failed": 6, 
+                        "num_failed": 0
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_10_3_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_3_ROOT614_X_2018-07-29-0000", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3.ROOT614-sun-00/CMSSW_10_3_ROOT614_X_2018-07-29-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 5, 
+                        "ignoreWarning": 680
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3.ROOT614-sun-00/CMSSW_10_3_ROOT614_X_2018-07-29-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}

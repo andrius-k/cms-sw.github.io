@@ -1,0 +1,142 @@
+{
+  "ctime": 1,
+  "data": [
+    {
+      "das": {
+        "expire": 1533237102,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 2755910638,
+          "checksum": "adler32:011fac76,cksum:625585031",
+          "creation_time": 1531772660.94473,
+          "id": 140621842,
+          "name": "/store/relval/CMSSW_10_2_0/RelValTTbar_13/GEN-SIM/102X_upgrade2018_realistic_v9_gcc7-v1/10000/261ECA34-3589-E811-A2CA-0CC47A4C8E16.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 2755910638,
+          "time_create": 1531772660.94473
+        }
+      ],
+      "qhash": "12f906af494bd556f3df96465821fb1d"
+    },
+    {
+      "das": {
+        "expire": 1533237102,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 4264461979,
+          "checksum": "adler32:31891da7,cksum:1477570137",
+          "creation_time": 1531773418.8009901,
+          "id": 140623801,
+          "name": "/store/relval/CMSSW_10_2_0/RelValTTbar_13/GEN-SIM/102X_upgrade2018_realistic_v9_gcc7-v1/10000/5E93AF6A-3589-E811-8BC6-0CC47A4D761A.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 4264461979,
+          "time_create": 1531773418.8009901
+        }
+      ],
+      "qhash": "12f906af494bd556f3df96465821fb1d"
+    },
+    {
+      "das": {
+        "expire": 1533237102,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "phedex:fileReplicas4dataset"
+        ]
+      },
+      "file": [
+        {
+          "bytes": 1417733225,
+          "checksum": "adler32:476d61ab,cksum:3956181831",
+          "creation_time": 1531773783.9235401,
+          "id": 140625348,
+          "name": "/store/relval/CMSSW_10_2_0/RelValTTbar_13/GEN-SIM/102X_upgrade2018_realistic_v9_gcc7-v1/10000/280B3BA5-3789-E811-BC10-0CC47A4D76B2.root",
+          "original_node": null,
+          "replica": [
+            {
+              "custodial": "n",
+              "group": "RelVal",
+              "node": "T2_CH_CERN",
+              "node_id": 1561,
+              "se": "srm-eoscms.cern.ch",
+              "subscribed": "y",
+              "time_create": null
+            }
+          ],
+          "size": 1417733225,
+          "time_create": 1531773783.9235401
+        }
+      ],
+      "qhash": "12f906af494bd556f3df96465821fb1d"
+    }
+  ],
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "|"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "12f906af494bd556f3df96465821fb1d",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort | unique",
+    "query": "file dataset=/RelValTTbar_13/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort | unique",
+    "spec": {
+      "dataset": "/RelValTTbar_13/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM",
+      "site": "T2_CH_CERN*"
+    },
+    "system": "",
+    "tstamp": 1533237100
+  },
+  "nresults": 3,
+  "status": "ok",
+  "timestamp": 1533237102
+}
