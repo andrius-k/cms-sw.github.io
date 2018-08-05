@@ -126,7 +126,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-11/CMSSW_10_3_X_2018-08-05-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2274, 
+                        "num_passed": 2362, 
                         "known_failed": 3, 
                         "num_failed": 0
                     }
@@ -2658,8 +2658,7 @@
         {
             "comp_baseline_state": "ok", 
             "tests_archs": [
-                "slc7_amd64_gcc810", 
-                "slc6_amd64_gcc700"
+                "slc7_amd64_gcc810"
             ], 
             "static_checks_failures": {
                 "status": "found", 
@@ -2669,36 +2668,17 @@
                 ]
             }, 
             "cmsdistTags": {
-                "slc7_amd64_gcc810": "ERR/CMSSW_10_3_X_2018-07-29-2300/slc7_amd64_gcc810", 
-                "slc6_amd64_gcc700": "Not Found"
+                "slc7_amd64_gcc810": "ERR/CMSSW_10_3_X_2018-07-29-2300/slc7_amd64_gcc810"
             }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-07-29-2300/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "compared_tags": "CMSSW_10_3_X_2018-07-29-1100-->CMSSW_10_3_X_2018-07-29-2300", 
             "dqm_tests": "found", 
             "check_headers": "found", 
             "ib_date": "2018-07-29-2300-0000", 
             "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-07-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2506, 
-                        "known_failed": 6, 
-                        "num_failed": 0
-                    }
-                }, 
                 {
                     "done": true, 
                     "arch": "slc7_amd64_gcc810", 
@@ -2712,14 +2692,6 @@
                 }
             ], 
             "utests": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-07-29-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }, 
                 {
                     "arch": "slc7_amd64_gcc810", 
                     "passed": "failed", 
@@ -2736,12 +2708,6 @@
             "base_branch": "CMSSW_10_3_X", 
             "release_name": "CMSSW_10_3_X_2018-07-29-2300", 
             "builds": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-07-29-2300/new/logAnalysis.pkl", 
-                    "details": {}
-                }, 
                 {
                     "arch": "slc7_amd64_gcc810", 
                     "passed": "error", 
@@ -2767,12 +2733,6 @@
             "isIB": true, 
             "inProgress": false, 
             "addons": [
-                {
-                    "arch": "slc6_amd64_gcc700", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-07-29-2300/addOnTests.log", 
-                    "details": {}
-                }, 
                 {
                     "arch": "slc7_amd64_gcc810", 
                     "passed": true, 
