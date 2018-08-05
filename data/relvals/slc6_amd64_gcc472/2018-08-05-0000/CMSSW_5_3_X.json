@@ -847,6 +847,24 @@
     },
     {
         "exitcode": 0,
+        "id": "4.35",
+        "known_error": 0,
+        "name": "WMuSkim2011B+WMuSkim2011B+RECOSKIM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 323
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.38",
         "known_error": 0,
         "name": "ZElSkim2011B+ZElSkim2011B+RECOSKIM",
@@ -1522,6 +1540,29 @@
     },
     {
         "exitcode": 0,
+        "id": "23.0",
+        "known_error": 0,
+        "name": "JpsiMM+JpsiMMINPUT+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 305
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "24.0",
         "known_error": 0,
         "name": "TTbarLepton+TTbarLeptonINPUT+DIGI+RECO+HARVEST",
@@ -1833,6 +1874,52 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 209
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "111.0",
+        "known_error": 0,
+        "name": "JpsiMM_Pt_20_inf+JpsiMM_Pt_20_inf+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "112.0",
+        "known_error": 0,
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
             }
         ]
     },
