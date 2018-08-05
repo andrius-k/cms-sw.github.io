@@ -1,9 +1,79 @@
 [
     {
+        "exitcode": 16640,
+        "id": "135.1",
+        "known_error": 0,
+        "name": "TTbar_13+TTbarFS_13+HARVESTUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "135.4",
+        "known_error": 0,
+        "name": "ZEE_13+ZEEFS_13+HARVESTUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "135.6",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000_13+QCDFlatPt153000FS_13+HARVESTUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "25400.0",
+        "known_error": 0,
+        "name": "TTbar_13_AVE10+TTbarFSPU13AVE10+HARVESTFS+MINIAODMCFS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
         "exitcode": 23552,
         "id": "201.0",
         "known_error": 0,
         "name": "ZmumuJets_Pt_20_300+ZmumuJets_Pt_20_300INPUT+DIGIPU2+RECOPU2+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "50101.0",
+        "known_error": 0,
+        "name": "SingleMuPt10+SingleMuPt10FSIdINPUT+SingleMuPt10FS_ID",
         "steps": [
             {
                 "errors": 0,
@@ -274,6 +344,36 @@
                 "errors": 4,
                 "status": "PASSED",
                 "warnings": 134
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.32",
+        "known_error": 0,
+        "name": "RunPhoton2011B+RunPhoton2011B+HLTD+RECODreHLT+HARVESTDreHLT",
+        "steps": []
+    },
+    {
+        "exitcode": 0,
+        "id": "4.34",
+        "known_error": 0,
+        "name": "ValSkim2011B+ValSkim2011B+RECOSKIM+HARVESTD",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1101
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
             }
         ]
     },
@@ -2240,6 +2340,29 @@
     },
     {
         "exitcode": 0,
+        "id": "117.0",
+        "known_error": 0,
+        "name": "QCD_Pt_120_170+QCD_Pt_120_170+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 225
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 788
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "118.0",
         "known_error": 0,
         "name": "QCD_Pt_170_230+QCD_Pt_170_230+DIGI+RECO",
@@ -2350,6 +2473,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "123.1",
+        "known_error": 0,
+        "name": "QCD_Pt_80_120+QCD_Pt_80_120FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 748
             }
         ]
     },
@@ -2685,6 +2821,13 @@
     },
     {
         "exitcode": 0,
+        "id": "144.9",
+        "known_error": 0,
+        "name": "WZEGSkim2010A+WZEGSkim2010A+RECOSKIM",
+        "steps": []
+    },
+    {
+        "exitcode": 0,
         "id": "200.0",
         "known_error": 0,
         "name": "ZEE+ZEEINPUT+DIGIPU1+RECOPU1+HARVEST",
@@ -2907,6 +3050,24 @@
     },
     {
         "exitcode": 0,
+        "id": "531.0",
+        "known_error": 0,
+        "name": "ReggeGribovPartonMC_EposLHC_5TeV_pPb+ReggeGribovPartonMC_EposLHC_5TeV_pPb+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "542.0",
         "known_error": 0,
         "name": "Upsilon4swithBuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+Upsilon4swithBuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
@@ -2915,6 +3076,24 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 37
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "544.0",
+        "known_error": 0,
+        "name": "LambdaBToLambdaMuMuToPPiMuMu_forSTEAM_13TeV_TuneCUETP8M1+LambdaBToLambdaMuMuToPPiMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
             },
             {
                 "errors": 0,
@@ -3060,6 +3239,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1201.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarSFSA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1313
             }
         ]
     },
