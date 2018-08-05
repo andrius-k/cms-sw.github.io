@@ -37,7 +37,7 @@
             "hlt_tests": "inprogress"
         }, 
         {
-            "comp_baseline_state": "ok", 
+            "comp_baseline_state": "errors", 
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700"
@@ -105,7 +105,7 @@
                 }
             ], 
             "release_queue": "CMSSW_10_3_X", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_3_X_2018-08-05-0000/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
