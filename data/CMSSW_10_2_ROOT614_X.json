@@ -1,5 +1,204 @@
 {
     "base_branch": "CMSSW_10_2_X", 
     "release_name": "CMSSW_10_2_ROOT614_X", 
-    "comparisons": []
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_2_X", 
+            "compared_tags": "CMSSW_10_2_0-->CMSSW_10_2_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "0002-CMSSW_10_2_X", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_2_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "b9e82810c43c4e1e363c2b1580eeb5d415662e6c", 
+                    "title": "Add warning for NaN values in DeepFlavourJetTagsProducer for DeepCSV", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24147", 
+                    "number": "24147", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "eacoleman"
+                }, 
+                {
+                    "hash": "312b12f9013374df17ce44e3efbee82e8c0f5495", 
+                    "title": "[10_2_X] SiStrip 10bit ZS packer bug fix: assume 10bit instead of 8bit-truncated digis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23875", 
+                    "number": "23875", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "pieterdavid"
+                }, 
+                {
+                    "hash": "f23982fdf3e98301c5720c19c3b4d78881ce2ed5", 
+                    "title": "Fix dereference of PVOrig (10_2_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24143", 
+                    "number": "24143", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gpetruc"
+                }, 
+                {
+                    "hash": "d8c16ee08eba5b551c0ed83d117686b097f12ac1", 
+                    "title": "Bugfix (typo) on PixelPhase1 Online client (same as #24139 for master)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24140", 
+                    "number": "24140", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "arossi83"
+                }, 
+                {
+                    "hash": "c325f799fc8e0c570871a4daabdcd189eeadc86f", 
+                    "title": "Backport to 10_2_X of compressionLevel tuning for RAWSIM, PR #23846", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23899", 
+                    "number": "23899", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "90f2cc0aa57a60fdad59cbe8db44e503a6fabdf7", 
+                    "title": "global chi2/ndf cut removed from isLooseTriggerMuon", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23973", 
+                    "number": "23973", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "schhibra"
+                }, 
+                {
+                    "hash": "09f835cb18c0d8daf2c706da8196831f81da5390", 
+                    "title": "DAQ file broker client (10_2_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23947", 
+                    "number": "23947", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "59818859f3b080b32367b2862bb0ac1ec9d10617", 
+                    "title": "[10.2.X] HP BS", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23817", 
+                    "number": "23817", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lpernie"
+                }, 
+                {
+                    "hash": "05241e3a7e3549b85b65d92d759f3bcd2c6923bb", 
+                    "title": "Herwig7 workflow 535", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23816", 
+                    "number": "23816", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Andrej-CMS"
+                }, 
+                {
+                    "hash": "2a9eabdfb21eb99cc43b800fa706a31a8cc63ecb", 
+                    "title": " Update to HLT menu 3p2 with muon fix (102X) ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23950", 
+                    "number": "23950", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "77a2201d1d3e281d421f21ec35381769a8739130", 
+                    "title": "Stop invalid LCTs from being produced. Fix the duplicated LCT issue. (Backport of #23769)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23833", 
+                    "number": "23833", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dildick"
+                }, 
+                {
+                    "hash": "4269922c3b5464d22a221b9bf4baeffd00da26e9", 
+                    "title": "Avoid double counting CPU usage in ExternalLHEProducer [CMSSW_10_2]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23956", 
+                    "number": "23956", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "47a287607b0bcaf37c31e830c86a7ac062cd62fa", 
+                    "title": "Fix for MuonIDFilterProducerForHLT (10_2)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24129", 
+                    "number": "24129", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "84eaa3b3737e2f8ba5cfc4ae287a062913fe79da", 
+                    "title": "Various NanoAOD fixes (PDF, PS weights, jets) 102X version", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23839", 
+                    "number": "23839", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-nanoAOD"
+                }, 
+                {
+                    "hash": "1bb02b125173a8868e3393296e9dc73c682b0e23", 
+                    "title": "Fix boundsCheck in SystemTimeKeeper [10_2]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24006", 
+                    "number": "24006", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }
+            ], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_2_X", 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_2_X", 
+            "compared_tags": "CMSSW_10_2_0-->CMSSW_10_2_0", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "0001-CMSSW_10_2_0", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_2_ROOT614_X", 
+            "comp_baseline": "not-found", 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "release_name": "CMSSW_10_2_0", 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }
+    ]
 }
