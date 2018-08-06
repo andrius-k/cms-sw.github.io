@@ -53,7 +53,19 @@
             "dqm_tests": "inprogress", 
             "check_headers": "inprogress", 
             "ib_date": "2018-08-06-2300-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 309, 
+                        "known_failed": 0, 
+                        "num_failed": 445
+                    }
+                }
+            ], 
             "utests": [
                 {
                     "arch": "slc7_aarch64_gcc700", 
@@ -106,7 +118,14 @@
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {
