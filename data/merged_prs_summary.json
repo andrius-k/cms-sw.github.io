@@ -1583,7 +1583,17 @@
                 "release_queue": "CMSSW_10_2_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "9b6857e0fd50702b0eba9719375009e7df6c18a5", 
+                        "title": "Make VLumiRange be only strings", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24168", 
+                        "number": "24168", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ericvaandering"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_2_X", 
                 "release_name": "CMSSW_10_2_X", 
                 "builds": [], 
@@ -1636,7 +1646,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-23/CMSSW_10_2_X_2018-08-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2214, 
+                            "num_passed": 2227, 
                             "known_failed": 5, 
                             "num_failed": 2
                         }
@@ -7895,7 +7905,7 @@
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-08-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 2526, 
-                            "known_failed": 5, 
+                            "known_failed": 6, 
                             "num_failed": 0
                         }
                     }, 
