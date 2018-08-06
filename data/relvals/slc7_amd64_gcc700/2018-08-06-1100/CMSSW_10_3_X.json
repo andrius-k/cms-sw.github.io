@@ -1387,6 +1387,24 @@
     },
     {
         "exitcode": 0,
+        "id": "5.4",
+        "known_error": 0,
+        "name": "ZEE+ZEEFS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.5",
         "known_error": 0,
         "name": "ZTT+ZTTFS+HARVESTFS",
@@ -15457,6 +15475,19 @@
     },
     {
         "exitcode": 0,
+        "id": "250199.0",
+        "known_error": 0,
+        "name": "PREMIXUP15_PU25+PREMIXUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250199.17",
         "known_error": 0,
         "name": "PREMIXUP17_PU25+PREMIXUP17_PU25",
@@ -15715,6 +15746,39 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 683
+            },
+            {
+                "errors": 37,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250202.171",
+        "known_error": 0,
+        "name": "TTbar_13UP17+TTbar_13UP17INPUT+PREMIXUP17_PU25+DIGIPRMXLOCALUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 58
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 929
             },
             {
                 "errors": 37,
@@ -16234,6 +16298,34 @@
                 "errors": 28,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250208.17",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13UP17+SMS-T1tttt_mGl-1500_mLSP-100_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 290,
+                "status": "PASSED",
+                "warnings": 92
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 469
+            },
+            {
+                "errors": 37,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
