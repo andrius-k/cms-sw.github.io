@@ -19,6 +19,34 @@
     },
     {
         "exitcode": 0,
+        "id": "17.0",
+        "known_error": 0,
+        "name": "SingleElectronPt35+SingleElectronPt35INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 101
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 924
+            },
+            {
+                "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "18.0",
         "known_error": 0,
         "name": "SingleGammaPt10+SingleGammaPt10INPUT+DIGI+RECO+HARVEST",
@@ -47,6 +75,34 @@
     },
     {
         "exitcode": 0,
+        "id": "19.0",
+        "known_error": 0,
+        "name": "SingleGammaPt35+SingleGammaPt35INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 792
+            },
+            {
+                "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20.0",
         "known_error": 0,
         "name": "SingleMuPt10+SingleMuPt10INPUT+DIGI+RECO+HARVEST",
@@ -65,6 +121,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 617
+            },
+            {
+                "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "21.0",
+        "known_error": 0,
+        "name": "SingleMuPt100+SingleMuPt100INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 550
             },
             {
                 "errors": 78,
@@ -142,6 +226,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 474
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "122.0",
+        "known_error": 0,
+        "name": "UpsMM+UpsMM+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             }
         ]
     },
@@ -777,6 +884,62 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 1650
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.864",
+        "known_error": 0,
+        "name": "RunJetHT2018B+RunJetHT2018B+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2356
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 3628
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.865",
+        "known_error": 0,
+        "name": "RunMET2018B+RunMET2018B+HLTDR2_2018+RECODR2_2018reHLT_skimMET_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 3309
+            },
+            {
+                "errors": 11,
+                "status": "PASSED",
+                "warnings": 2781
             },
             {
                 "errors": 27,
