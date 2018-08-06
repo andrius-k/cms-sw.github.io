@@ -1,5 +1,23 @@
 [
     {
+        "exitcode": 23552,
+        "id": "250206.18",
+        "known_error": 0,
+        "name": "ZMM_13UP18+ZMM_13UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25_L1TMuDQM+HARVESTUP18_PU25_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 948
+            }
+        ]
+    },
+    {
         "exitcode": 34304,
         "id": "11024.0",
         "known_error": 0,
@@ -29,6 +47,21 @@
         "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
         "known_failed_step": 1,
         "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "25210.0",
+        "known_error": 1,
+        "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
+        "known_failed_step": 1,
+        "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
         "steps": [
             {
                 "errors": 0,
@@ -4625,6 +4658,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.769",
+        "known_error": 0,
+        "name": "RunHLTPhy2016H+RunHLTPhy2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 116,
+                "status": "PASSED",
+                "warnings": 166
+            },
+            {
+                "errors": 328,
+                "status": "PASSED",
+                "warnings": 10842
+            },
+            {
+                "errors": 1283,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.77",
         "known_error": 0,
         "name": "RunDoubleEG2016H+RunDoubleEG2016H+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_Prompt+HARVESTDR2",
@@ -4776,6 +4837,62 @@
             },
             {
                 "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.776",
+        "known_error": 0,
+        "name": "RunSingleMu2016H+RunSingleMu2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt_Lumi_L1TMuDQM+HARVEST2016_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 121,
+                "status": "PASSED",
+                "warnings": 192
+            },
+            {
+                "errors": 333,
+                "status": "PASSED",
+                "warnings": 9671
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.777",
+        "known_error": 0,
+        "name": "RunSinglePh2016H+RunSinglePh2016H+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 66,
+                "status": "PASSED",
+                "warnings": 85
+            },
+            {
+                "errors": 277,
+                "status": "PASSED",
+                "warnings": 16281
+            },
+            {
+                "errors": 1283,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -11575,6 +11692,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11024.6",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018PU_GenSimFull_heCollapseINPUT+DigiFullPU_heCollapse_2018PU+RecoFullPU_heCollapse_2018PU+HARVESTFullPU_heCollapse_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 911
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1053
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },

@@ -14,6 +14,57 @@
     },
     {
         "exitcode": 0,
+        "id": "122.0",
+        "known_error": 0,
+        "name": "UpsMM+UpsMM+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.804",
+        "known_error": 0,
+        "name": "RunJetHT2015C+RunJetHT2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 113
+            },
+            {
+                "errors": 212,
+                "status": "PASSED",
+                "warnings": 4724
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "135.2",
         "known_error": 0,
         "name": "SingleMuPt10_UP15+SingleMuPt10FS_UP15+HARVESTUP15FS+MINIAODMCUP15FS",
@@ -106,6 +157,65 @@
     },
     {
         "exitcode": 0,
+        "id": "136.7721",
+        "known_error": 0,
+        "name": "RunJetHT2016H_reminiaod+RunJetHT2016H_reminiaod+REMINIAOD_data2016+HARVESTDR2_REMINIAOD_data2016",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 729
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "509.0",
+        "known_error": 0,
+        "name": "SoftQCDelastic_13TeV_pythia8+SoftQCDelastic_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "531.0",
+        "known_error": 0,
+        "name": "ReggeGribovPartonMC_EposLHC_5TeV_pPb+ReggeGribovPartonMC_EposLHC_5TeV_pPb+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 65
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.5",
         "known_error": 0,
         "name": "ProdZEE_13_reminiaodINPUT+ProdZEE_13_reminiaodINPUT+REMINIAOD_mc2016+HARVESTDR2_REMINIAOD_mc2016",
@@ -183,6 +293,52 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 47
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4008.0",
+        "known_error": 0,
+        "name": "QCD_Pt_80_170_BCtoE_8TeV+QCD_Pt_80_170_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25407.0",
+        "known_error": 0,
+        "name": "NuGun_UP15+FS_NuGun_UP15_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 175
             }
         ]
     }
