@@ -53,13 +53,15 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_10_1_X_2018-08-05-2300-->CMSSW_10_1_X_2018-08-06-1100", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc630", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-11/CMSSW_10_1_X_2018-08-06-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-11/CMSSW_10_1_X_2018-08-06-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2018-08-06-1100-0000", 
@@ -70,7 +72,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-11/CMSSW_10_1_X_2018-08-06-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 6, 
+                            "num_passed": 44, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1727,7 +1729,7 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_10_2_X_2018-08-05-2300-->CMSSW_10_2_X_2018-08-06-1100", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "check_headers": "inprogress", 
                 "ib_date": "2018-08-06-1100-0000", 
                 "relvals": [
@@ -1737,22 +1739,24 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2018-08-06-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 32, 
+                            "num_passed": 113, 
                             "known_failed": 0, 
-                            "num_failed": 2
+                            "num_failed": 3
                         }
                     }
                 ], 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2018-08-06-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2018-08-06-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "release_queue": "CMSSW_10_2_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_2_X_2018-08-06-1100/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_10_2_X", 
@@ -1821,7 +1825,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-23/CMSSW_10_2_X_2018-08-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2427, 
+                            "num_passed": 2436, 
                             "known_failed": 6, 
                             "num_failed": 3
                         }
@@ -8695,6 +8699,15 @@
                         "author_login": "CarstenHensel"
                     }, 
                     {
+                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
+                        "title": "DD Core Algorithms Cleanup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
+                        "number": "24177", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
                         "hash": "da08f3834f5e47481e6c254e862f2fb25d46d0b5", 
                         "title": "DD CLHEP Units Cleanup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24198", 
@@ -8704,13 +8717,13 @@
                         "author_login": "ianna"
                     }, 
                     {
-                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
-                        "title": "DD Core Algorithms Cleanup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
-                        "number": "24177", 
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ianna"
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -8851,6 +8864,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }
                 ], 
                 "fwlite": [], 
@@ -9866,6 +9888,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }
                 ], 
                 "fwlite": [], 
@@ -10864,6 +10895,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }
                 ], 
                 "fwlite": [], 
@@ -11862,6 +11902,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }
                 ], 
                 "fwlite": [], 
@@ -12853,6 +12902,15 @@
                         "author_login": "CarstenHensel"
                     }, 
                     {
+                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
+                        "title": "DD Core Algorithms Cleanup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
+                        "number": "24177", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
                         "hash": "da08f3834f5e47481e6c254e862f2fb25d46d0b5", 
                         "title": "DD CLHEP Units Cleanup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24198", 
@@ -12862,13 +12920,13 @@
                         "author_login": "ianna"
                     }, 
                     {
-                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
-                        "title": "DD Core Algorithms Cleanup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
-                        "number": "24177", 
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ianna"
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -13008,6 +13066,15 @@
                         "author_login": "CarstenHensel"
                     }, 
                     {
+                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
+                        "title": "DD Core Algorithms Cleanup", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
+                        "number": "24177", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ianna"
+                    }, 
+                    {
                         "hash": "da08f3834f5e47481e6c254e862f2fb25d46d0b5", 
                         "title": "DD CLHEP Units Cleanup", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24198", 
@@ -13017,13 +13084,13 @@
                         "author_login": "ianna"
                     }, 
                     {
-                        "hash": "41332dae43f60f18663de17678f49571a55e5f7e", 
-                        "title": "DD Core Algorithms Cleanup", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24177", 
-                        "number": "24177", 
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "ianna"
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -13158,7 +13225,17 @@
                 "release_queue": "CMSSW_10_3_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_3_X", 
                 "release_name": "CMSSW_10_3_X", 
                 "builds": [], 
@@ -13198,7 +13275,7 @@
                 ], 
                 "compared_tags": "CMSSW_10_3_X_2018-08-05-2300-->CMSSW_10_3_X_2018-08-06-1100", 
                 "dqm_tests": "found", 
-                "check_headers": "inprogress", 
+                "check_headers": "found", 
                 "ib_date": "2018-08-06-1100-0000", 
                 "relvals": [
                     {
@@ -13207,7 +13284,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3-mon-11/CMSSW_10_3_X_2018-08-06-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 182, 
+                            "num_passed": 314, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -13218,7 +13295,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.3-mon-11/CMSSW_10_3_X_2018-08-06-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 161, 
+                            "num_passed": 203, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -13356,9 +13433,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/sun/10.3-sun-23/CMSSW_10_3_X_2018-08-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2376, 
+                            "num_passed": 2380, 
                             "known_failed": 17, 
-                            "num_failed": 41
+                            "num_failed": 43
                         }
                     }
                 ], 
@@ -25024,7 +25101,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/9.4.MAOD-mon-11/CMSSW_9_4_MAOD_X_2018-08-06-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 125, 
+                            "num_passed": 206, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
