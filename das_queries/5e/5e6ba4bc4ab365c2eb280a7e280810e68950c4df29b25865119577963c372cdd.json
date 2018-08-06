@@ -3,38 +3,44 @@
   "data": [
     {
       "das": {
-        "expire": 1533194674,
+        "expire": 1533540220,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
         "services": [
-          "phedex:fileReplicas4dataset"
+          "dbs3:files_via_dataset"
         ]
       },
       "file": [
         {
-          "bytes": 221555557,
-          "checksum": "adler32:4fb3abe2,cksum:3049458579",
-          "creation_time": 1530701430.1382201,
-          "id": 139640195,
+          "adler32": "4fb3abe2",
+          "auto_cross_section": 0.0,
+          "block.name": "/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM#90774d54-b1f2-4aa6-aebc-11b6de76e04e",
+          "block_id": 18999335,
+          "block_name": "/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM#90774d54-b1f2-4aa6-aebc-11b6de76e04e",
+          "branch_hash_id": null,
+          "check_sum": "3049458579",
+          "create_by": null,
+          "created_by": null,
+          "creation_date": null,
+          "creation_time": null,
+          "dataset": "/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM",
+          "dataset_id": 13684387,
+          "file_id": 378785117,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1530719108,
+          "last_modified_by": "wmagent@vocms0308.cern.ch",
+          "md5": null,
+          "modification_time": 1530719108,
+          "modified_by": "wmagent@vocms0308.cern.ch",
           "name": "/store/relval/CMSSW_10_2_0_pre6/RelValSingleMuPt10/GEN-SIM/102X_upgrade2018_realistic_v7-v2/10000/FA8CF0B1-767F-E811-96A0-0025905B85E8.root",
-          "original_node": null,
-          "replica": [
-            {
-              "custodial": "n",
-              "group": "RelVal",
-              "node": "T2_CH_CERN",
-              "node_id": 1561,
-              "se": "srm-eoscms.cern.ch",
-              "subscribed": "y",
-              "time_create": null
-            }
-          ],
+          "nevents": 25000,
           "size": 221555557,
-          "time_create": 1530701430.1382201
+          "type": "EDM"
         }
       ],
-      "qhash": "020dd067b5ffe06a9158f6c32e0074f8"
+      "qhash": "1ad1db73b256e06d09e9e942297a8272"
     }
   ],
   "mongo_query": {
@@ -55,18 +61,17 @@
         "1"
       ]
     },
-    "hash": "020dd067b5ffe06a9158f6c32e0074f8",
+    "hash": "1ad1db73b256e06d09e9e942297a8272",
     "instance": "prod/global",
     "pipe": "grep file.name | sort | unique",
-    "query": "file dataset=/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM site=T2_CH_CERN | grep file.name | sort | unique",
+    "query": "file dataset=/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM | grep file.name | sort | unique",
     "spec": {
-      "dataset": "/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM",
-      "site": "T2_CH_CERN*"
+      "dataset": "/RelValSingleMuPt10/CMSSW_10_2_0_pre6-102X_upgrade2018_realistic_v7-v2/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1533194673
+    "tstamp": 1533540219
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1533194674
+  "timestamp": 1533540220
 }
