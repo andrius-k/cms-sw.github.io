@@ -1786,13 +1786,13 @@
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc7_amd64_gcc700", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.2-mon-23/CMSSW_10_2_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 2470, 
-                            "known_failed": 15, 
+                            "known_failed": 18, 
                             "num_failed": 0
                         }
                     }
@@ -8882,6 +8882,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
                         "title": "Documentation for L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24204", 
@@ -8898,6 +8907,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }
                 ], 
                 "fwlite": [], 
@@ -9013,6 +9031,24 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
                         "title": "Remove obsolete CSC DQM module in L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24196", 
@@ -9068,7 +9104,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.CLANG-mon-23/CMSSW_10_3_CLANG_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2070, 
+                            "num_passed": 2130, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -10096,6 +10132,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
                         "title": "Remove obsolete CSC DQM module in L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24196", 
@@ -10151,7 +10196,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.DEVEL-mon-23/CMSSW_10_3_DEVEL_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2405, 
+                            "num_passed": 2517, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -11164,6 +11209,24 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
                         "title": "Remove obsolete CSC DQM module in L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24196", 
@@ -11216,12 +11279,12 @@
                     {
                         "done": false, 
                         "arch": "slc6_amd64_gcc700", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 938, 
+                            "num_passed": 1035, 
                             "known_failed": 1, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }
                 ], 
@@ -12232,6 +12295,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
                         "title": "Remove obsolete CSC DQM module in L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24196", 
@@ -12287,9 +12359,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT6-mon-23/CMSSW_10_3_ROOT6_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1625, 
+                            "num_passed": 1789, 
                             "known_failed": 2, 
-                            "num_failed": 24
+                            "num_failed": 29
                         }
                     }
                 ], 
@@ -13354,6 +13426,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
                         "title": "Documentation for L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24204", 
@@ -13370,6 +13451,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }
                 ], 
                 "fwlite": [], 
@@ -13545,6 +13635,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
                         "title": "Documentation for L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24204", 
@@ -13561,6 +13660,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabiocos"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }
                 ], 
                 "fwlite": [], 
@@ -13688,6 +13796,24 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
+                    }, 
+                    {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
                         "title": "Remove obsolete CSC DQM module in L1Trigger/CSCTriggerPrimitives", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24196", 
@@ -13749,7 +13875,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 893, 
+                            "num_passed": 1145, 
                             "known_failed": 1, 
                             "num_failed": 0
                         }
@@ -13760,7 +13886,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2117, 
+                            "num_passed": 2345, 
                             "known_failed": 6, 
                             "num_failed": 0
                         }
@@ -13771,9 +13897,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2335, 
-                            "known_failed": 8, 
-                            "num_failed": 27
+                            "num_passed": 2359, 
+                            "known_failed": 17, 
+                            "num_failed": 33
                         }
                     }, 
                     {
