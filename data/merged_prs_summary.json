@@ -78,7 +78,7 @@
                         }
                     }
                 ], 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "release_queue": "CMSSW_10_1_X", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_1_X_2018-08-07-2300/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
@@ -13142,7 +13142,19 @@
                     }
                 ], 
                 "ib_date": "2018-08-07-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3.ROOT6-tue-23/CMSSW_10_3_ROOT6_X_2018-08-07-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 3, 
+                            "known_failed": 0, 
+                            "num_failed": 2
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_10_3_ROOT6_X", 
                 "comp_baseline": "not-found", 
                 "material_budget_comparison": "not-found", 
@@ -26816,7 +26828,7 @@
                 ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_9_4_AN_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_AN_X_2018-08-07-2300/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
@@ -28403,9 +28415,11 @@
                     }, 
                     {
                         "arch": "slc6_amd64_gcc630", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc630/www/tue/9.4-tue-23/CMSSW_9_4_X_2018-08-07-2300/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/tue/9.4-tue-23/CMSSW_9_4_X_2018-08-07-2300/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2018-08-07-2300-0000", 
