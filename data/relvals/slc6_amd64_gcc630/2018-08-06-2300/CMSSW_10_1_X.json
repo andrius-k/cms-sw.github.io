@@ -1105,6 +1105,29 @@
     },
     {
         "exitcode": 0,
+        "id": "127.0",
+        "known_error": 0,
+        "name": "SingleGammaFlatPt10To100+SingleGammaFlatPt10To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 62
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 727
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "128.0",
         "known_error": 0,
         "name": "SingleMuPt1HS+SingleMuPt1HS+DIGI+RECO",
@@ -2904,6 +2927,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.755",
+        "known_error": 0,
+        "name": "RunSinglePh2016D+RunSinglePh2016D+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 90,
+                "status": "PASSED",
+                "warnings": 453
+            },
+            {
+                "errors": 302,
+                "status": "PASSED",
+                "warnings": 29525
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.758",
         "known_error": 0,
         "name": "RunHLTPhy2016E+RunHLTPhy2016E+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -3773,6 +3824,34 @@
                 "errors": 78,
                 "status": "PASSED",
                 "warnings": 3115
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "158.0",
+        "known_error": 0,
+        "name": "HydjetQ_B12_5020GeV_2018+HydjetQ_B12_5020GeV_2018+DIGIHI2018PPRECO+RECOHI2018PPRECO+HARVESTHI2018PPRECO",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
