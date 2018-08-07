@@ -406,6 +406,29 @@
         ]
     },
     {
+        "exitcode": 23552,
+        "id": "11024.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018PU_GenSimFullINPUT+DigiFullPU_2018PU+RecoFullPU_2018PU+HARVESTFullPU_2018PU+NanoFull_2018PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 44
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
         "exitcode": 35584,
         "id": "10801.0",
         "known_error": 0,
@@ -15307,6 +15330,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 489
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "21634.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D22_GenSimHLBeamSpotFull14+DigiFullTrigger_2023D22+RecoFullGlobal_2023D22+HARVESTFullGlobal_2023D22",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 50
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 853
             },
             {
                 "errors": 4,
