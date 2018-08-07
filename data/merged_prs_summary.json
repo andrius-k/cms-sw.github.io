@@ -67,12 +67,12 @@
                 "ib_date": "2018-08-06-2300-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/10.1-mon-23/CMSSW_10_1_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2297, 
+                            "num_passed": 2341, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1753,7 +1753,13 @@
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
                 ], 
-                "static_checks_failures": "not-found", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc6_amd64_gcc700", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2018-08-05-0000/slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2018-08-05-0000/slc6_amd64_gcc700"
@@ -1850,12 +1856,15 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc6_amd64_gcc700"
+                }, 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
                 "igprof": "found", 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
@@ -8891,6 +8900,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bmahakud"
+                    }, 
+                    {
                         "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
                         "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24216", 
@@ -9040,13 +9058,13 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
-                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
-                        "number": "24216", 
+                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
+                        "title": "[HGCAL trigger] Bugfixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
+                        "number": "24195", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "wddgit"
+                        "author_login": "PFCal-dev"
                     }, 
                     {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
@@ -9058,13 +9076,22 @@
                         "author_login": "dildick"
                     }, 
                     {
-                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
-                        "title": "[HGCAL trigger] Bugfixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
-                        "number": "24195", 
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "PFCal-dev"
+                        "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -9122,7 +9149,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.CLANG-mon-23/CMSSW_10_3_CLANG_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2130, 
+                            "num_passed": 2247, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -10150,13 +10177,13 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
-                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
-                        "number": "24216", 
+                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
+                        "title": "[HGCAL trigger] Bugfixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
+                        "number": "24195", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "wddgit"
+                        "author_login": "PFCal-dev"
                     }, 
                     {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
@@ -10168,13 +10195,22 @@
                         "author_login": "dildick"
                     }, 
                     {
-                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
-                        "title": "[HGCAL trigger] Bugfixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
-                        "number": "24195", 
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "PFCal-dev"
+                        "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -10232,7 +10268,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.DEVEL-mon-23/CMSSW_10_3_DEVEL_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2517, 
+                            "num_passed": 2529, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -11245,13 +11281,13 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
-                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
-                        "number": "24216", 
+                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
+                        "title": "[HGCAL trigger] Bugfixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
+                        "number": "24195", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "wddgit"
+                        "author_login": "PFCal-dev"
                     }, 
                     {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
@@ -11263,13 +11299,22 @@
                         "author_login": "dildick"
                     }, 
                     {
-                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
-                        "title": "[HGCAL trigger] Bugfixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
-                        "number": "24195", 
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "PFCal-dev"
+                        "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -11327,7 +11372,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT614-mon-23/CMSSW_10_3_ROOT614_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1035, 
+                            "num_passed": 1222, 
                             "known_failed": 1, 
                             "num_failed": 1
                         }
@@ -12340,13 +12385,13 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
-                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
-                        "number": "24216", 
+                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
+                        "title": "[HGCAL trigger] Bugfixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
+                        "number": "24195", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "wddgit"
+                        "author_login": "PFCal-dev"
                     }, 
                     {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
@@ -12358,13 +12403,22 @@
                         "author_login": "dildick"
                     }, 
                     {
-                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
-                        "title": "[HGCAL trigger] Bugfixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
-                        "number": "24195", 
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "PFCal-dev"
+                        "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -12422,7 +12476,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.ROOT6-mon-23/CMSSW_10_3_ROOT6_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1789, 
+                            "num_passed": 1905, 
                             "known_failed": 2, 
                             "num_failed": 29
                         }
@@ -13498,6 +13552,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bmahakud"
+                    }, 
+                    {
                         "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
                         "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24216", 
@@ -13716,6 +13779,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bmahakud"
+                    }, 
+                    {
                         "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
                         "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24216", 
@@ -13877,13 +13949,13 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
-                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
-                        "number": "24216", 
+                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
+                        "title": "[HGCAL trigger] Bugfixes", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
+                        "number": "24195", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "wddgit"
+                        "author_login": "PFCal-dev"
                     }, 
                     {
                         "hash": "c8f08ed5218680eb338460472697cea3618ae2e4", 
@@ -13895,13 +13967,22 @@
                         "author_login": "dildick"
                     }, 
                     {
-                        "hash": "b8fa71e77417e9a7be18a6e7d77326115bd4d62c", 
-                        "title": "[HGCAL trigger] Bugfixes", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24195", 
-                        "number": "24195", 
+                        "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                        "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                        "number": "23988", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "PFCal-dev"
+                        "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
+                        "title": "Fix GCC 8 compiler warnings. Object used after out of scope.", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24216", 
+                        "number": "24216", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -13965,7 +14046,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1145, 
+                            "num_passed": 1545, 
                             "known_failed": 1, 
                             "num_failed": 0
                         }
@@ -13976,7 +14057,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2345, 
+                            "num_passed": 2361, 
                             "known_failed": 6, 
                             "num_failed": 0
                         }
@@ -13987,9 +14068,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2359, 
+                            "num_passed": 2365, 
                             "known_failed": 17, 
-                            "num_failed": 33
+                            "num_failed": 36
                         }
                     }, 
                     {
