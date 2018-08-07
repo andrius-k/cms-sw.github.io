@@ -385,6 +385,29 @@
     },
     {
         "exitcode": 16896,
+        "id": "136.783",
+        "known_error": 0,
+        "name": "RunJetHT2017B+RunJetHT2017B+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 56,
+                "status": "PASSED",
+                "warnings": 135
+            },
+            {
+                "errors": 232,
+                "status": "FAILED",
+                "warnings": 5074
+            }
+        ]
+    },
+    {
+        "exitcode": 16896,
         "id": "136.787",
         "known_error": 0,
         "name": "RunSingleMu2017B+RunSingleMu2017B+HLTDR2_2017+RECODR2_2017reHLT_skimSingleMu_Prompt_Lumi+HARVEST2017_L1TMuDQM",
@@ -7748,6 +7771,34 @@
                 "errors": 234,
                 "status": "PASSED",
                 "warnings": 5446
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.825",
+        "known_error": 0,
+        "name": "RunZeroBias2017E+RunZeroBias2017E+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 168
+            },
+            {
+                "errors": 241,
+                "status": "PASSED",
+                "warnings": 5443
             },
             {
                 "errors": 33,
@@ -15641,6 +15692,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 23
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.18",
+        "known_error": 0,
+        "name": "PREMIXUP18_PU25+PREMIXUP18_PU25",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 46
             }
         ]
     },
