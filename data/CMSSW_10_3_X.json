@@ -39,8 +39,8 @@
         {
             "comp_baseline_state": "ok", 
             "tests_archs": [
-                "slc7_amd64_gcc810", 
                 "slc7_amd64_gcc700", 
+                "slc7_amd64_gcc810", 
                 "slc7_aarch64_gcc700"
             ], 
             "static_checks_failures": "not-found", 
@@ -60,13 +60,24 @@
             "relvals": [
                 {
                     "done": false, 
-                    "arch": "slc7_amd64_gcc810", 
+                    "arch": "slc7_amd64_gcc700", 
                     "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 157, 
+                        "num_passed": 35, 
                         "known_failed": 0, 
                         "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc810", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/mon/10.3-mon-23/CMSSW_10_3_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 286, 
+                        "known_failed": 0, 
+                        "num_failed": 1
                     }
                 }, 
                 {
