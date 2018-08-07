@@ -661,6 +661,29 @@
     },
     {
         "exitcode": 16896,
+        "id": "136.829",
+        "known_error": 0,
+        "name": "RunDoubleEG2017F+RunDoubleEG2017F+HLTDR2_2017+RECODR2_2017reHLT_skimDoubleEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 94
+            },
+            {
+                "errors": 211,
+                "status": "FAILED",
+                "warnings": 4585
+            }
+        ]
+    },
+    {
+        "exitcode": 16896,
         "id": "136.831",
         "known_error": 0,
         "name": "RunJetHT2017F+RunJetHT2017F+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
@@ -771,6 +794,29 @@
                 "errors": 99,
                 "status": "FAILED",
                 "warnings": 1233
+            }
+        ]
+    },
+    {
+        "exitcode": 16896,
+        "id": "136.854",
+        "known_error": 0,
+        "name": "RunMuonEG2018A+RunMuonEG2018A+HLTDR2_2018+RECODR2_2018reHLT_skimMuonEG_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 2943
+            },
+            {
+                "errors": 36,
+                "status": "FAILED",
+                "warnings": 1822
             }
         ]
     },
