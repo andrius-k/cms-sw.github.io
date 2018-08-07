@@ -22,6 +22,33 @@
             "material_budget_comparison": "not-found", 
             "merged_prs": [
                 {
+                    "hash": "9e0e89740daa8a21fd6882fdf4366884f7a1e227", 
+                    "title": "gcc 8 compiler warnings, change strncpy to memcpy", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24170", 
+                    "number": "24170", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "wddgit"
+                }, 
+                {
+                    "hash": "29d1778e00fb9a687749a8a12f1138bb348042ce", 
+                    "title": "Phase2-hgx135 Update the validation code with correct reference of layers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24194", 
+                    "number": "24194", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
+                    "title": "Made EcalDigiToRaw a global module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24105", 
+                    "number": "24105", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
                     "hash": "5a4e0e89ce08f9141b19f723ef2a64208760ddd9", 
                     "title": "add hiCentrality and hiClusterCompatibility to pp_on_AA era", 
                     "url": "https://github.com/cms-sw/cmssw/pull/24201", 
@@ -40,28 +67,10 @@
                     "author_login": "CTPPS"
                 }, 
                 {
-                    "hash": "29d1778e00fb9a687749a8a12f1138bb348042ce", 
-                    "title": "Phase2-hgx135 Update the validation code with correct reference of layers", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/24194", 
-                    "number": "24194", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "bsunanda"
-                }, 
-                {
                     "hash": "fcbf1488cf64109027763bbea43a890084be6729", 
                     "title": "Removed unused variable in DataFormats/L1TrackTrigger", 
                     "url": "https://github.com/cms-sw/cmssw/pull/24221", 
                     "number": "24221", 
-                    "is_merge_commit": false, 
-                    "from_merge_commit": false, 
-                    "author_login": "Dr15Jones"
-                }, 
-                {
-                    "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
-                    "title": "Made EcalDigiToRaw a global module", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/24105", 
-                    "number": "24105", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "Dr15Jones"
@@ -115,7 +124,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.3-tue-11/CMSSW_10_3_X_2018-08-07-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1279, 
+                        "num_passed": 1515, 
                         "known_failed": 1, 
                         "num_failed": 0
                     }
@@ -126,7 +135,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.3-tue-11/CMSSW_10_3_X_2018-08-07-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1394, 
+                        "num_passed": 1402, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
