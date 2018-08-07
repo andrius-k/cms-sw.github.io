@@ -72,7 +72,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/tue/10.1-tue-11/CMSSW_10_1_X_2018-08-07-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 223, 
+                            "num_passed": 307, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1821,7 +1821,19 @@
                 "dqm_tests": "inprogress", 
                 "check_headers": "inprogress", 
                 "ib_date": "2018-08-07-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc700", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.2-tue-11/CMSSW_10_2_X_2018-08-07-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 57, 
+                            "known_failed": 0, 
+                            "num_failed": 1
+                        }
+                    }
+                ], 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc700", 
@@ -9293,7 +9305,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.CLANG-mon-23/CMSSW_10_3_CLANG_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2419, 
+                            "num_passed": 2431, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -26066,7 +26078,35 @@
                 "release_queue": "CMSSW_9_4_AN_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "e07b10e20615e6160c61c3346f45215afbd921b5", 
+                        "title": "Fix dereference of PVOrig (94X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24137", 
+                        "number": "24137", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "gpetruc"
+                    }, 
+                    {
+                        "hash": "0d936db9b6e5442c793519cc3f9f8576e8e7519f", 
+                        "title": "BTV: Add warning for NaN DeepCSV values and inputs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23618", 
+                        "number": "23618", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "eacoleman"
+                    }, 
+                    {
+                        "hash": "289f958350929fc57c8c04c3b007dcf0f33065e2", 
+                        "title": "Protecting E/gamma Scale and Smearing from \"nan\" energies : 94X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24151", 
+                        "number": "24151", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Sam-Harper"
+                    }
+                ], 
                 "base_branch": "CMSSW_9_4_AN_X", 
                 "release_name": "CMSSW_9_4_AN_X", 
                 "builds": [], 
@@ -26306,7 +26346,35 @@
                 "release_queue": "CMSSW_9_4_MAOD_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "e07b10e20615e6160c61c3346f45215afbd921b5", 
+                        "title": "Fix dereference of PVOrig (94X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24137", 
+                        "number": "24137", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "gpetruc"
+                    }, 
+                    {
+                        "hash": "0d936db9b6e5442c793519cc3f9f8576e8e7519f", 
+                        "title": "BTV: Add warning for NaN DeepCSV values and inputs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23618", 
+                        "number": "23618", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "eacoleman"
+                    }, 
+                    {
+                        "hash": "289f958350929fc57c8c04c3b007dcf0f33065e2", 
+                        "title": "Protecting E/gamma Scale and Smearing from \"nan\" energies : 94X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24151", 
+                        "number": "24151", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "Sam-Harper"
+                    }
+                ], 
                 "base_branch": "CMSSW_9_4_MAOD_X", 
                 "release_name": "CMSSW_9_4_MAOD_X", 
                 "builds": [], 
@@ -26352,7 +26420,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/tue/9.4.MAOD-tue-11/CMSSW_9_4_MAOD_X_2018-08-07-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 84, 
+                            "num_passed": 348, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -26422,7 +26490,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/mon/9.4.MAOD-mon-23/CMSSW_9_4_MAOD_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1832, 
+                            "num_passed": 1884, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -27541,7 +27609,35 @@
                 "release_queue": "CMSSW_9_4_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "e07b10e20615e6160c61c3346f45215afbd921b5", 
+                        "title": "Fix dereference of PVOrig (94X)", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24137", 
+                        "number": "24137", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "gpetruc"
+                    }, 
+                    {
+                        "hash": "0d936db9b6e5442c793519cc3f9f8576e8e7519f", 
+                        "title": "BTV: Add warning for NaN DeepCSV values and inputs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23618", 
+                        "number": "23618", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "eacoleman"
+                    }, 
+                    {
+                        "hash": "289f958350929fc57c8c04c3b007dcf0f33065e2", 
+                        "title": "Protecting E/gamma Scale and Smearing from \"nan\" energies : 94X", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24151", 
+                        "number": "24151", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Sam-Harper"
+                    }
+                ], 
                 "base_branch": "CMSSW_9_4_X", 
                 "release_name": "CMSSW_9_4_X", 
                 "builds": [], 
