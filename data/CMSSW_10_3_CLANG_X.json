@@ -65,6 +65,15 @@
                     "author_login": "dildick"
                 }, 
                 {
+                    "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
+                    "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/23988", 
+                    "number": "23988", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bmahakud"
+                }, 
+                {
                     "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
                     "title": "Made EcalDigiToRaw a global module", 
                     "url": "https://github.com/cms-sw/cmssw/pull/24105", 
@@ -92,13 +101,13 @@
                     "author_login": "CTPPS"
                 }, 
                 {
-                    "hash": "fdb2c84807f134fc827f98567599d04cf216dda9", 
-                    "title": "Fixes to L3 Muon OI SeedGenerator (TSGForOI) for high efficiency ", 
-                    "url": "https://github.com/cms-sw/cmssw/pull/23988", 
-                    "number": "23988", 
+                    "hash": "f5f71511b608b7659df95ac09d043a62891a1bbf", 
+                    "title": "L1Tv2 also for HLTv3.2 frozen menu in TSG tests", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24211", 
+                    "number": "24211", 
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
-                    "author_login": "bmahakud"
+                    "author_login": "Martin-Grunewald"
                 }, 
                 {
                     "hash": "d497c647e5ef5d9e2c2edd4f35a02cc57494e8f6", 
@@ -108,6 +117,15 @@
                     "is_merge_commit": false, 
                     "from_merge_commit": false, 
                     "author_login": "wddgit"
+                }, 
+                {
+                    "hash": "e5b8906bae9ce0a6d9801130fe8574df94d6abea", 
+                    "title": "[10.3.X] [Change GTs] Update L1T + change 2018MC trackerAl + DynInEff", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24202", 
+                    "number": "24202", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lpernie"
                 }, 
                 {
                     "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
@@ -169,13 +187,13 @@
             "ib_date": "2018-08-06-2300-0000", 
             "relvals": [
                 {
-                    "done": false, 
+                    "done": true, 
                     "arch": "slc6_amd64_gcc700", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.3.CLANG-mon-23/CMSSW_10_3_CLANG_X_2018-08-06-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
                         "num_passed": 2529, 
-                        "known_failed": 5, 
+                        "known_failed": 6, 
                         "num_failed": 0
                     }
                 }
