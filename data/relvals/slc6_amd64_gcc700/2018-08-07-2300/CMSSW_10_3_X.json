@@ -334,6 +334,39 @@
     },
     {
         "exitcode": 0,
+        "id": "4.29",
+        "known_error": 0,
+        "name": "RunMinBias2011B+RunMinBias2011B+HLTD+RECODR1reHLT+HARVESTDR1reHLT+SKIMDreHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 118
+            },
+            {
+                "errors": 21,
+                "status": "PASSED",
+                "warnings": 2323
+            },
+            {
+                "errors": 77,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 258
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.34",
         "known_error": 0,
         "name": "ValSkim2011B+ValSkim2011B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
@@ -9496,6 +9529,62 @@
                 "errors": 78,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "280.0",
+        "known_error": 0,
+        "name": "AMPT_PPb_5020GeV_MinimumBias+AMPT_PPb_5020GeV_MinimumBias+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 48
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 518
+            },
+            {
+                "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "281.0",
+        "known_error": 0,
+        "name": "EPOS_PPb_8160GeV_MinimumBias+EPOS_PPb_8160GeV_MinimumBias+DIGIUP15_PPb+RECOUP15_PPb+HARVESTUP15_PPb",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 91
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 40,
+                "status": "PASSED",
+                "warnings": 579
+            },
+            {
+                "errors": 80,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
