@@ -1480,6 +1480,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.839",
+        "known_error": 0,
+        "name": "RunNoBPTX2017F+RunNoBPTX2017F+HLTDR2_2017+RECODR2_2017reHLTAlCaTkCosmics_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 161
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 3135
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "503.0",
         "known_error": 0,
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
@@ -3866,6 +3894,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 104
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250402.0",
+        "known_error": 0,
+        "name": "TTbar_13+FS_TTbar_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 159
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 221
             }
         ]
     },
