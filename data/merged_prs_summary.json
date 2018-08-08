@@ -1893,7 +1893,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.2-wed-11/CMSSW_10_2_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2285, 
+                            "num_passed": 2350, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -1904,7 +1904,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.2-wed-11/CMSSW_10_2_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1809, 
+                            "num_passed": 1842, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -9225,6 +9225,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -9351,6 +9360,15 @@
                         "author_login": "fabiocos"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -9360,13 +9378,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -9385,6 +9403,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "8a62a891567a75f67b2d6589a6e3db503d8cafda", 
@@ -9572,6 +9599,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -9579,6 +9615,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "intrepid42"
+                    }, 
+                    {
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -9597,6 +9642,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }
                 ], 
                 "fwlite": [], 
@@ -10869,6 +10923,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -10876,6 +10939,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "intrepid42"
+                    }, 
+                    {
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -10894,6 +10966,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }
                 ], 
                 "fwlite": [], 
@@ -12151,6 +12232,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -12158,6 +12248,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "intrepid42"
+                    }, 
+                    {
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -12176,6 +12275,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }
                 ], 
                 "fwlite": [], 
@@ -13426,6 +13534,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -13433,6 +13550,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "intrepid42"
+                    }, 
+                    {
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -13451,6 +13577,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }
                 ], 
                 "fwlite": [], 
@@ -14726,6 +14861,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -14852,6 +14996,15 @@
                         "author_login": "fabiocos"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -14861,13 +15014,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -14886,6 +15039,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "8a62a891567a75f67b2d6589a6e3db503d8cafda", 
@@ -15097,6 +15259,15 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
+                    }, 
+                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -15223,6 +15394,15 @@
                         "author_login": "fabiocos"
                     }, 
                     {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
                         "title": "Decorrelated parton shower weights", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24209", 
@@ -15232,13 +15412,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -15257,6 +15437,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }, 
                     {
                         "hash": "8a62a891567a75f67b2d6589a6e3db503d8cafda", 
@@ -15445,6 +15634,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "cms-nanoAOD"
+                    }, 
+                    {
+                        "hash": "e25f0dae68b095e45460ed9227cc92566711c11d", 
+                        "title": "Fix appending of an integer to a string in L1TBPTX", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24228", 
+                        "number": "24228", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "02bcdc9c1ca1e7c41b0610bf351a1b85594904db", 
+                        "title": "Fix GCC 8 compiler warnings, CSCRawToDigi", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24220", 
+                        "number": "24220", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "wddgit"
                     }
                 ], 
                 "base_branch": "CMSSW_10_3_X", 
@@ -15495,7 +15711,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-11/CMSSW_10_3_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2485, 
+                            "num_passed": 2517, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -27195,8 +27411,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.AN-wed-11/CMSSW_9_4_AN_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1948, 
-                            "known_failed": 0, 
+                            "num_passed": 1968, 
+                            "known_failed": 2, 
                             "num_failed": 0
                         }
                     }
@@ -27569,13 +27785,13 @@
                 "ib_date": "2018-08-08-1100-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.MAOD-wed-11/CMSSW_9_4_MAOD_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 1968, 
-                            "known_failed": 8, 
+                            "known_failed": 12, 
                             "num_failed": 0
                         }
                     }
