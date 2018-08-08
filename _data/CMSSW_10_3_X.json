@@ -31,6 +31,15 @@
                     "author_login": "cms-nanoAOD"
                 }, 
                 {
+                    "hash": "500ae5c88de64da0f9a8fb8d36ee595be555fa43", 
+                    "title": "Fix bug introduced by PR 23454 (python 2to3 tool lib2to3.fixes.fix_filter)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/24248", 
+                    "number": "24248", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gpetruc"
+                }, 
+                {
                     "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
                     "title": "Fixed memory leak in TrackerSimHitProducer", 
                     "url": "https://github.com/cms-sw/cmssw/pull/24210", 
@@ -151,7 +160,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-11/CMSSW_10_3_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2517, 
+                        "num_passed": 2529, 
                         "known_failed": 5, 
                         "num_failed": 0
                     }
