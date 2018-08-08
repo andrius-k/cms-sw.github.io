@@ -1893,7 +1893,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.2-wed-11/CMSSW_10_2_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2167, 
+                            "num_passed": 2285, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -1904,8 +1904,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.2-wed-11/CMSSW_10_2_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1794, 
-                            "known_failed": 1, 
+                            "num_passed": 1809, 
+                            "known_failed": 2, 
                             "num_failed": 0
                         }
                     }
@@ -9189,6 +9189,15 @@
                         "author_login": "CTPPS"
                     }, 
                     {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
                         "hash": "f5f71511b608b7659df95ac09d043a62891a1bbf", 
                         "title": "L1Tv2 also for HLTv3.2 frozen menu in TSG tests", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24211", 
@@ -9207,15 +9216,6 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
-                        "title": "Add combined premixing workflow for FastSim", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
-                        "number": "24149", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -9223,6 +9223,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
@@ -9304,6 +9313,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -9509,15 +9527,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
-                        "title": "Decorrelated parton shower weights", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
-                        "number": "24209", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "intrepid42"
-                    }, 
-                    {
                         "hash": "1d4589385fe873b1a4c2c8ed23a25cb0065830b9", 
                         "title": "Ape parallel features", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24192", 
@@ -9525,6 +9534,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mteroerd"
+                    }, 
+                    {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
+                    }, 
+                    {
+                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
+                        "title": "Decorrelated parton shower weights", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
+                        "number": "24209", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "intrepid42"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -10779,15 +10815,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
-                        "title": "Decorrelated parton shower weights", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
-                        "number": "24209", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "intrepid42"
-                    }, 
-                    {
                         "hash": "1d4589385fe873b1a4c2c8ed23a25cb0065830b9", 
                         "title": "Ape parallel features", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24192", 
@@ -10795,6 +10822,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mteroerd"
+                    }, 
+                    {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
+                    }, 
+                    {
+                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
+                        "title": "Decorrelated parton shower weights", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
+                        "number": "24209", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "intrepid42"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -12034,15 +12088,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
-                        "title": "Decorrelated parton shower weights", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
-                        "number": "24209", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "intrepid42"
-                    }, 
-                    {
                         "hash": "1d4589385fe873b1a4c2c8ed23a25cb0065830b9", 
                         "title": "Ape parallel features", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24192", 
@@ -12050,6 +12095,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mteroerd"
+                    }, 
+                    {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
+                    }, 
+                    {
+                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
+                        "title": "Decorrelated parton shower weights", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
+                        "number": "24209", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "intrepid42"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -13282,15 +13354,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
-                        "title": "Decorrelated parton shower weights", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
-                        "number": "24209", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "intrepid42"
-                    }, 
-                    {
                         "hash": "1d4589385fe873b1a4c2c8ed23a25cb0065830b9", 
                         "title": "Ape parallel features", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24192", 
@@ -13298,6 +13361,33 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mteroerd"
+                    }, 
+                    {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
+                    }, 
+                    {
+                        "hash": "6521743ed0269061992c2bdeb5bc046f1d4c317b", 
+                        "title": "Decorrelated parton shower weights", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24209", 
+                        "number": "24209", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "intrepid42"
                     }, 
                     {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
@@ -14555,6 +14645,15 @@
                         "author_login": "CTPPS"
                     }, 
                     {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
                         "hash": "f5f71511b608b7659df95ac09d043a62891a1bbf", 
                         "title": "L1Tv2 also for HLTv3.2 frozen menu in TSG tests", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24211", 
@@ -14573,15 +14672,6 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
-                        "title": "Add combined premixing workflow for FastSim", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
-                        "number": "24149", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -14589,6 +14679,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
@@ -14670,6 +14769,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -14899,6 +15007,15 @@
                         "author_login": "CTPPS"
                     }, 
                     {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
                         "hash": "f5f71511b608b7659df95ac09d043a62891a1bbf", 
                         "title": "L1Tv2 also for HLTv3.2 frozen menu in TSG tests", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24211", 
@@ -14917,15 +15034,6 @@
                         "author_login": "wddgit"
                     }, 
                     {
-                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
-                        "title": "Add combined premixing workflow for FastSim", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
-                        "number": "24149", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "makortel"
-                    }, 
-                    {
                         "hash": "0805e1ab35d133431618dd6ca3e6f17fc40561d3", 
                         "title": "Removed unused variables in Calibration/IsolatedParticles", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24219", 
@@ -14933,6 +15041,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "5e1097dc4ffe98c46620d4bb38a9a182b47d3c94", 
+                        "title": "Add combined premixing workflow for FastSim", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24149", 
+                        "number": "24149", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "makortel"
                     }, 
                     {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
@@ -15014,6 +15131,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "bmahakud"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
                     }, 
                     {
                         "hash": "c88dc77d9ed57f461cfcacf257526a174630d00a", 
@@ -15229,7 +15355,26 @@
                 "release_queue": "CMSSW_10_3_X", 
                 "comp_baseline": "inprogress", 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "4c56de07ad552c0a897e3cd900ae090ab16e24e7", 
+                        "title": "Fixed memory leak in TrackerSimHitProducer", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24210", 
+                        "number": "24210", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "skurz"
+                    }, 
+                    {
+                        "hash": "3407acd29112116e3e9ab85a6597984a49fa1d6f", 
+                        "title": "Fix cross product for gcc 8", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24205", 
+                        "number": "24205", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "VinInn"
+                    }
+                ], 
                 "base_branch": "CMSSW_10_3_X", 
                 "release_name": "CMSSW_10_3_X", 
                 "builds": [], 
@@ -26978,7 +27123,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.AN-wed-11/CMSSW_9_4_AN_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1893, 
+                            "num_passed": 1948, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -27357,8 +27502,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/wed/9.4.MAOD-wed-11/CMSSW_9_4_MAOD_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1956, 
-                            "known_failed": 2, 
+                            "num_passed": 1968, 
+                            "known_failed": 8, 
                             "num_failed": 0
                         }
                     }
