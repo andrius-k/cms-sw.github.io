@@ -205,6 +205,29 @@
     },
     {
         "exitcode": 0,
+        "id": "130.0",
+        "known_error": 0,
+        "name": "SinglePiPt10+SinglePiPt10+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 231
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "132.0",
         "known_error": 0,
         "name": "LM9p+LM9p+DIGI+RECO",
@@ -2215,6 +2238,19 @@
                 "errors": 13,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "20261.97",
+        "known_error": 0,
+        "name": "NuGun+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFullPU_Premix",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 96
             }
         ]
     },
