@@ -1,5 +1,23 @@
 [
     {
+        "exitcode": 17920,
+        "id": "136.7801",
+        "known_error": 0,
+        "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 13,
+                "status": "FAILED",
+                "warnings": 83
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "4.22",
         "known_error": 0,
@@ -101,6 +119,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "127.0",
+        "known_error": 0,
+        "name": "SingleGammaFlatPt10To100+SingleGammaFlatPt10To100+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 181
             }
         ]
     },
@@ -247,6 +288,62 @@
             },
             {
                 "errors": 1283,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.762",
+        "known_error": 0,
+        "name": "RunMET2016E+RunMET2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMET_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 163,
+                "status": "PASSED",
+                "warnings": 184
+            },
+            {
+                "errors": 373,
+                "status": "PASSED",
+                "warnings": 17952
+            },
+            {
+                "errors": 1283,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.788",
+        "known_error": 0,
+        "name": "RunSinglePh2017B+RunSinglePh2017B+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 122
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 6066
+            },
+            {
+                "errors": 33,
                 "status": "PASSED",
                 "warnings": 0
             }
