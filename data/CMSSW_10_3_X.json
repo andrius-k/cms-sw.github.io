@@ -55,7 +55,19 @@
             "dqm_tests": "inprogress", 
             "check_headers": "inprogress", 
             "ib_date": "2018-08-08-1100-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.3-wed-11/CMSSW_10_3_X_2018-08-08-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 8, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc700", 
@@ -136,7 +148,14 @@
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.3-wed-11/CMSSW_10_3_X_2018-08-08-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {
@@ -185,7 +204,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.3-tue-23/CMSSW_10_3_X_2018-08-07-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2099, 
+                        "num_passed": 2167, 
                         "known_failed": 2, 
                         "num_failed": 1
                     }
@@ -196,9 +215,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/tue/10.3-tue-23/CMSSW_10_3_X_2018-08-07-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2359, 
+                        "num_passed": 2371, 
                         "known_failed": 17, 
-                        "num_failed": 34
+                        "num_failed": 40
                     }
                 }
             ], 
