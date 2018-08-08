@@ -411,9 +411,11 @@
                 }, 
                 {
                     "arch": "slc7_aarch64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.3-tue-23/CMSSW_10_3_X_2018-08-07-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/10.3-tue-23/CMSSW_10_3_X_2018-08-07-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
                 }
             ], 
             "release_queue": "CMSSW_10_3_X", 
