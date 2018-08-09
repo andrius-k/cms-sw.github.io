@@ -3,7 +3,24 @@
   "data": [
     {
       "das": {
-        "expire": 1533539706,
+        "expire": 1533842268,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "combined:files4block_runs_site"
+        ]
+      },
+      "file": [
+        {
+          "name": "/store/data/Run2011A/Jet/RAW-RECO/HighMET-08Nov2011-v1/0000/EE6CEF95-590B-E111-B8AD-00266CFADFCC.root"
+        }
+      ],
+      "qhash": "dda7a3c97c3f1dfb0420dea843744ba6"
+    },
+    {
+      "das": {
+        "expire": 1533842268,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -20,7 +37,7 @@
     },
     {
       "das": {
-        "expire": 1533539706,
+        "expire": 1533842268,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
@@ -31,23 +48,6 @@
       "file": [
         {
           "name": "/store/data/Run2011A/Jet/RAW-RECO/HighMET-08Nov2011-v1/0000/7069975F-5F0B-E111-B0DB-0015178C4BE8.root"
-        }
-      ],
-      "qhash": "dda7a3c97c3f1dfb0420dea843744ba6"
-    },
-    {
-      "das": {
-        "expire": 1533539706,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "combined:files4block_runs_site"
-        ]
-      },
-      "file": [
-        {
-          "name": "/store/data/Run2011A/Jet/RAW-RECO/HighMET-08Nov2011-v1/0000/EE6CEF95-590B-E111-B8AD-00266CFADFCC.root"
         }
       ],
       "qhash": "dda7a3c97c3f1dfb0420dea843744ba6"
@@ -81,9 +81,9 @@
       "site": "T2_CH_CERN"
     },
     "system": "",
-    "tstamp": 1533539704
+    "tstamp": 1533842266
   },
   "nresults": 3,
   "status": "ok",
-  "timestamp": 1533539706
+  "timestamp": 1533842268
 }

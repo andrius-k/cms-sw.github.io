@@ -1,32 +1,9 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1533540272,
-        "instance": "prod/global",
-        "primary_key": "site.name",
-        "record": 1,
-        "services": [
-          "combined:site4dataset"
-        ]
-      },
-      "qhash": "176cdfba91653650961696a0fe4d8843",
-      "site": [
-        {
-          "block_completion": "100.00%",
-          "block_fraction": "100.00%",
-          "dataset_fraction": "100.00%",
-          "kind": "Buffer",
-          "name": "T0_CH_CERN_Export",
-          "replica_fraction": "100.00%",
-          "se": ""
-        }
-      ]
-    },
-    {
-      "das": {
-        "expire": 1533540272,
+        "expire": 1533842864,
         "instance": "prod/global",
         "primary_key": "site.name",
         "record": 1,
@@ -44,6 +21,29 @@
           "name": "T0_CH_CERN_MSS",
           "replica_fraction": "100.00%",
           "se": "srm-cms.cern.ch"
+        }
+      ]
+    },
+    {
+      "das": {
+        "expire": 1533842864,
+        "instance": "prod/global",
+        "primary_key": "site.name",
+        "record": 1,
+        "services": [
+          "combined:site4dataset"
+        ]
+      },
+      "qhash": "176cdfba91653650961696a0fe4d8843",
+      "site": [
+        {
+          "block_completion": "100.00%",
+          "block_fraction": "100.00%",
+          "dataset_fraction": "100.00%",
+          "kind": "Buffer",
+          "name": "T0_CH_CERN_Export",
+          "replica_fraction": "100.00%",
+          "se": ""
         }
       ]
     }
@@ -75,9 +75,9 @@
       "dataset": "/RelValTTbar_13/CMSSW_7_5_0-75X_mcRun2_asymptotic_v1_FastSim-v1/GEN-SIM-DIGI-RECO"
     },
     "system": "",
-    "tstamp": 1533540271
+    "tstamp": 1533842862
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1533540272
+  "timestamp": 1533842864
 }

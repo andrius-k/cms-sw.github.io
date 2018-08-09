@@ -3,38 +3,44 @@
   "data": [
     {
       "das": {
-        "expire": 1533539861,
+        "expire": 1533842447,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
         "services": [
-          "phedex:fileReplicas4dataset"
+          "dbs3:files_via_dataset"
         ]
       },
       "file": [
         {
-          "bytes": 386188020,
-          "checksum": "adler32:b1f8ab40,cksum:61040493",
-          "creation_time": 1531765087.0253501,
-          "id": 140611063,
+          "adler32": "b1f8ab40",
+          "auto_cross_section": 0.0,
+          "block.name": "/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM#26f63367-b90c-4bd2-94fa-eccf99022b05",
+          "block_id": 19059511,
+          "block_name": "/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM#26f63367-b90c-4bd2-94fa-eccf99022b05",
+          "branch_hash_id": null,
+          "check_sum": "61040493",
+          "create_by": null,
+          "created_by": null,
+          "creation_date": null,
+          "creation_time": null,
+          "dataset": "/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM",
+          "dataset_id": 13688465,
+          "file_id": 381830437,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1531774930,
+          "last_modified_by": "wmagent@vocms0308.cern.ch",
+          "md5": null,
+          "modification_time": 1531774930,
+          "modified_by": "wmagent@vocms0308.cern.ch",
           "name": "/store/relval/CMSSW_10_2_0/RelValSingleElectronPt35/GEN-SIM/102X_upgrade2018_realistic_v9_gcc7-v1/10000/C01A58F5-2289-E811-A317-0025905A48FC.root",
-          "original_node": null,
-          "replica": [
-            {
-              "custodial": "n",
-              "group": "RelVal",
-              "node": "T2_CH_CERN",
-              "node_id": 1561,
-              "se": "srm-eoscms.cern.ch",
-              "subscribed": "y",
-              "time_create": null
-            }
-          ],
+          "nevents": 9000,
           "size": 386188020,
-          "time_create": 1531765087.0253501
+          "type": "EDM"
         }
       ],
-      "qhash": "c202ba4aa5376c183d11aaa5c57aa6a1"
+      "qhash": "02d7d66c2b5f8f7bbf0d10fc3478afb5"
     }
   ],
   "mongo_query": {
@@ -55,18 +61,17 @@
         "1"
       ]
     },
-    "hash": "c202ba4aa5376c183d11aaa5c57aa6a1",
+    "hash": "02d7d66c2b5f8f7bbf0d10fc3478afb5",
     "instance": "prod/global",
     "pipe": "grep file.name | sort | unique",
-    "query": "file dataset=/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort | unique",
+    "query": "file dataset=/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM | grep file.name | sort | unique",
     "spec": {
-      "dataset": "/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM",
-      "site": "T2_CH_CERN*"
+      "dataset": "/RelValSingleElectronPt35/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1533539860
+    "tstamp": 1533842446
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1533539861
+  "timestamp": 1533842447
 }

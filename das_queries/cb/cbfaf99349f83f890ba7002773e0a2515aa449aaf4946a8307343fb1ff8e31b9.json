@@ -1,40 +1,46 @@
 {
-  "ctime": 0,
+  "ctime": 1,
   "data": [
     {
       "das": {
-        "expire": 1533539548,
+        "expire": 1533841876,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
         "services": [
-          "phedex:fileReplicas4dataset"
+          "dbs3:files_via_dataset"
         ]
       },
       "file": [
         {
-          "bytes": 10043991,
-          "checksum": "adler32:ce380d80,cksum:1596421373",
-          "creation_time": 1531678160.9265299,
-          "id": 140536563,
+          "adler32": "ce380d80",
+          "auto_cross_section": 0.0,
+          "block.name": "/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM#7e0472d7-c68e-46c0-a907-0b72ca178b8b",
+          "block_id": 19053553,
+          "block_name": "/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM#7e0472d7-c68e-46c0-a907-0b72ca178b8b",
+          "branch_hash_id": null,
+          "check_sum": "1596421373",
+          "create_by": null,
+          "created_by": null,
+          "creation_date": null,
+          "creation_time": null,
+          "dataset": "/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM",
+          "dataset_id": 13687373,
+          "file_id": 381537717,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1531689068,
+          "last_modified_by": "wmagent@vocms0308.cern.ch",
+          "md5": null,
+          "modification_time": 1531689068,
+          "modified_by": "wmagent@vocms0308.cern.ch",
           "name": "/store/relval/CMSSW_10_2_0/RelValNuGun/GEN-SIM/102X_upgrade2018_realistic_v9_gcc7-v1/10000/DC38E5E4-5888-E811-954C-0CC47A78A3EE.root",
-          "original_node": null,
-          "replica": [
-            {
-              "custodial": "n",
-              "group": "RelVal",
-              "node": "T2_CH_CERN",
-              "node_id": 1561,
-              "se": "srm-eoscms.cern.ch",
-              "subscribed": "y",
-              "time_create": null
-            }
-          ],
+          "nevents": 9000,
           "size": 10043991,
-          "time_create": 1531678160.9265299
+          "type": "EDM"
         }
       ],
-      "qhash": "d0d3d0bf03dc53e5e6d916b5a4fd6368"
+      "qhash": "ad9ab26b2a4f8344aa6a00adca594b72"
     }
   ],
   "mongo_query": {
@@ -55,18 +61,17 @@
         "1"
       ]
     },
-    "hash": "d0d3d0bf03dc53e5e6d916b5a4fd6368",
+    "hash": "ad9ab26b2a4f8344aa6a00adca594b72",
     "instance": "prod/global",
     "pipe": "grep file.name | sort | unique",
-    "query": "file dataset=/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM site=T2_CH_CERN | grep file.name | sort | unique",
+    "query": "file dataset=/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM | grep file.name | sort | unique",
     "spec": {
-      "dataset": "/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM",
-      "site": "T2_CH_CERN*"
+      "dataset": "/RelValNuGun/CMSSW_10_2_0-102X_upgrade2018_realistic_v9_gcc7-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1533539547
+    "tstamp": 1533841875
   },
   "nresults": 1,
   "status": "ok",
-  "timestamp": 1533539548
+  "timestamp": 1533841876
 }
