@@ -337,6 +337,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.36",
+        "known_error": 0,
+        "name": "WElSkim2011B+WElSkim2011B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 186
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 4947
+            },
+            {
+                "errors": 71,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.37",
         "known_error": 0,
         "name": "ZMuSkim2011B+ZMuSkim2011B+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
@@ -747,6 +775,34 @@
                 "errors": 36,
                 "status": "PASSED",
                 "warnings": 9656
+            },
+            {
+                "errors": 71,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.64",
+        "known_error": 0,
+        "name": "RunEl2012C+RunEl2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 283
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 9091
             },
             {
                 "errors": 71,
@@ -9395,6 +9451,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 452
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25409.0",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 625
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 430
             }
         ]
     },
