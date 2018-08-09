@@ -64,7 +64,7 @@
             ], 
             "compared_tags": "CMSSW_10_3_X_2018-08-08-1100-->CMSSW_10_3_X_2018-08-08-2300", 
             "dqm_tests": "found", 
-            "check_headers": "inprogress", 
+            "check_headers": "found", 
             "ib_date": "2018-08-08-2300-0000", 
             "relvals": [
                 {
@@ -73,7 +73,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 142, 
+                        "num_passed": 431, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -84,7 +84,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2327, 
+                        "num_passed": 2394, 
                         "known_failed": 6, 
                         "num_failed": 0
                     }
@@ -95,7 +95,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 348, 
+                        "num_passed": 433, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -106,9 +106,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1593, 
+                        "num_passed": 1634, 
                         "known_failed": 27, 
-                        "num_failed": 9
+                        "num_failed": 11
                     }
                 }
             ], 
@@ -286,7 +286,7 @@
             "static_checks_v2": "inprogress", 
             "valgrind": "found", 
             "material_budget": "not-found", 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
