@@ -72,7 +72,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/10.1-thu-11/CMSSW_10_1_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 588, 
+                            "num_passed": 642, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1932,7 +1932,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.2-thu-11/CMSSW_10_2_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 113, 
+                            "num_passed": 291, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1949,7 +1949,7 @@
                     }
                 ], 
                 "release_queue": "CMSSW_10_2_X", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_2_X_2018-08-09-1100/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_10_2_X", 
@@ -9324,13 +9324,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -9430,6 +9430,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ianna"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }, 
                     {
                         "hash": "5a4e0e89ce08f9141b19f723ef2a64208760ddd9", 
@@ -9716,6 +9725,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -9780,7 +9798,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.CLANG-wed-23/CMSSW_10_3_CLANG_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2441, 
+                            "num_passed": 2445, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -11133,6 +11151,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
@@ -12541,6 +12568,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -13940,6 +13976,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -14004,7 +14049,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.ROOT6-wed-23/CMSSW_10_3_ROOT6_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2419, 
+                            "num_passed": 2435, 
                             "known_failed": 5, 
                             "num_failed": 41
                         }
@@ -15409,13 +15454,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -15515,6 +15560,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ianna"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }, 
                     {
                         "hash": "5a4e0e89ce08f9141b19f723ef2a64208760ddd9", 
@@ -15870,13 +15924,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
-                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
-                        "number": "24208", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "SanghyunKo"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -15976,6 +16030,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ianna"
+                    }, 
+                    {
+                        "hash": "4618dd5d139615d016f45a2d89e15b4902992679", 
+                        "title": "POWHEG VBF & HWJ relval gridpack patch", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24208", 
+                        "number": "24208", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "SanghyunKo"
                     }, 
                     {
                         "hash": "5a4e0e89ce08f9141b19f723ef2a64208760ddd9", 
@@ -16274,6 +16337,15 @@
                         "author_login": "wddgit"
                     }, 
                     {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -16344,7 +16416,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2397, 
+                            "num_passed": 2413, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -28011,7 +28083,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4.AN-thu-11/CMSSW_9_4_AN_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 51, 
+                            "num_passed": 71, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28470,7 +28542,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4.MAOD-thu-11/CMSSW_9_4_MAOD_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 72, 
+                            "num_passed": 110, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -29892,7 +29964,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/thu/9.4-thu-11/CMSSW_9_4_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 250, 
+                            "num_passed": 316, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -29903,7 +29975,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4-thu-11/CMSSW_9_4_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 344, 
+                            "num_passed": 537, 
                             "known_failed": 1, 
                             "num_failed": 0
                         }
