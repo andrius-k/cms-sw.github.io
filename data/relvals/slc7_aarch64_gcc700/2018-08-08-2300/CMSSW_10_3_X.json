@@ -19,6 +19,51 @@
     },
     {
         "exitcode": 16640,
+        "id": "1361.17",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "GluGluHToZZTo4L_M125_Pow_py8_Evt_13UP17+GluGluHToZZTo4L_M125_Pow_py8_Evt_13UP17+DIGIUP17+RECOUP17+HARVESTUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "1363.0",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "VBFHToBB_M125_Pow_py8_Evt_13+VBFHToBB_M125_Pow_py8_Evt_13+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "1363.17",
+        "known_error": 1,
+        "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
+        "known_failed_step": 1,
+        "name": "VBFHToBB_M125_Pow_py8_Evt_13UP17+VBFHToBB_M125_Pow_py8_Evt_13UP17+DIGIUP17+RECOUP17+HARVESTUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "25210.0",
         "known_error": 1,
         "known_error_message": "Architecture incompetibility. GridPacks were built for x86_64",
@@ -118,6 +163,34 @@
             {
                 "errors": 0,
                 "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.28",
+        "known_error": 0,
+        "name": "HighMet2011A+HighMet2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 450
+            },
+            {
+                "errors": 77,
+                "status": "PASSED",
                 "warnings": 0
             }
         ]
@@ -2988,6 +3061,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 95
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250200.1",
+        "known_error": 0,
+        "name": "ProdZEE_13_pmx25ns+ProdZEE_13+DIGIPRMXUP15_PROD_PU25+RECOPRMXUP15PROD_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 50
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 157
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 416
             }
         ]
     },
