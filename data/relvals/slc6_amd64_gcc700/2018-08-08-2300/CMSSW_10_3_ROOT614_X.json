@@ -1,5 +1,23 @@
 [
     {
+        "exitcode": 31744,
+        "id": "250202.18",
+        "known_error": 0,
+        "name": "TTbar_13UP18+TTbar_13UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 1763
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "103.0",
         "known_error": 0,
@@ -65,6 +83,52 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "110.0",
+        "known_error": 0,
+        "name": "SingleTauPt50Pythia+SingleTauPt50Pythia+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 362
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "112.0",
+        "known_error": 0,
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 376
             }
         ]
     },
@@ -145,6 +209,19 @@
     },
     {
         "exitcode": 0,
+        "id": "124.4",
+        "known_error": 0,
+        "name": "SinglePiPt10+SinglePiPt10FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.5",
         "known_error": 0,
         "name": "SinglePiPt100+SinglePiPt100FS",
@@ -153,6 +230,19 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "124.6",
+        "known_error": 0,
+        "name": "SingleGammaFlatPt10To10+SingleGammaFlatPt10To10FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 118
             }
         ]
     },
@@ -2115,6 +2205,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1040.0",
+        "known_error": 0,
+        "name": "RunZeroBias2017F+RunZeroBias2017F+TIER0RAWSIPIXELCAL+ALCASPLITSIPIXELCAL+ALCAHARVDSIPIXELCAL",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 360
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
                 "errors": 0,
