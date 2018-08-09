@@ -67,12 +67,12 @@
                 "ib_date": "2018-08-09-1100-0000", 
                 "relvals": [
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "slc6_amd64_gcc630", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/10.1-thu-11/CMSSW_10_1_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2293, 
+                            "num_passed": 2341, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -9333,13 +9333,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cardinia"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -9382,6 +9382,15 @@
                         "title": "Replaced self assignment with a comment", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24252", 
                         "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -9531,13 +9540,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
-                        "title": "Fix hidden overloaded member function clang warning", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
-                        "number": "24226", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -9625,6 +9634,15 @@
                         "title": "Change how we calculate GUID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24246", 
                         "number": "24246", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -9779,6 +9797,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -9786,6 +9813,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
@@ -11225,6 +11261,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -11232,6 +11277,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
@@ -12658,6 +12712,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -12665,6 +12728,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
@@ -14084,6 +14156,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -14091,6 +14172,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
@@ -15553,13 +15643,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cardinia"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -15602,6 +15692,15 @@
                         "title": "Replaced self assignment with a comment", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24252", 
                         "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -15751,13 +15850,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
-                        "title": "Fix hidden overloaded member function clang warning", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
-                        "number": "24226", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -15845,6 +15944,15 @@
                         "title": "Change how we calculate GUID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24246", 
                         "number": "24246", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -16041,13 +16149,13 @@
                         "author_login": "cms-nanoAOD"
                     }, 
                     {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
+                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
+                        "title": "Fix hidden overloaded member function clang warning", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
+                        "number": "24226", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "cardinia"
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "ba01d2942fa573f5c04cc70e27f002ed7e737a98", 
@@ -16090,6 +16198,15 @@
                         "title": "Replaced self assignment with a comment", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24252", 
                         "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -16239,13 +16356,13 @@
                         "author_login": "intrepid42"
                     }, 
                     {
-                        "hash": "7b99bd67a588941006b22951a22e080c0f2277b2", 
-                        "title": "Fix hidden overloaded member function clang warning", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24226", 
-                        "number": "24226", 
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "cardinia"
                     }, 
                     {
                         "hash": "1f910d4e7f6728eb6896a3086072a0c13a184ab5", 
@@ -16333,6 +16450,15 @@
                         "title": "Change how we calculate GUID", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24246", 
                         "number": "24246", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
@@ -16499,6 +16625,15 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
+                        "hash": "7053301e67bd5fcd43561baf1f2e042ddfd41537", 
+                        "title": "Fix Clang warnings in PhysicsTools/PatAlgos", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24243", 
+                        "number": "24243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
                         "title": "L1T muon offline DQM Fix dPhi calculation", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24238", 
@@ -16506,6 +16641,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "318a2849f42ba103074597ee85e1f8b6aeb5dd95", 
+                        "title": "Removed setting a variable equal to itself in for loop", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24250", 
+                        "number": "24250", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
@@ -16563,7 +16707,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3-thu-11/CMSSW_10_3_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1592, 
+                            "num_passed": 1738, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
