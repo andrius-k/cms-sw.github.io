@@ -6889,16 +6889,24 @@
         "name": "RunMET2017C+RunMET2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMET_Prompt+HARVEST2017",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 237,
+                "status": "PASSED",
+                "warnings": 511
             },
             {
-                "status": "PASSED"
+                "errors": 37,
+                "status": "PASSED",
+                "warnings": 1270
             },
             {
-                "status": "PASSED"
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -6978,6 +6986,34 @@
                 "errors": 82,
                 "status": "PASSED",
                 "warnings": 1368
+            },
+            {
+                "errors": 29,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.802",
+        "known_error": 0,
+        "name": "RunMuOnia2017C+RunMuOnia2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMuOnia_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 529
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 874
             },
             {
                 "errors": 29,
