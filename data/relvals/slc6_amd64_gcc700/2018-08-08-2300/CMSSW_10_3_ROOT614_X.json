@@ -1,6 +1,19 @@
 [
     {
         "exitcode": 0,
+        "id": "123.1",
+        "known_error": 0,
+        "name": "QCD_Pt_80_120+QCD_Pt_80_120FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 78
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "123.3",
         "known_error": 0,
         "name": "SingleMuPt1+SingleMuPt1FS",
@@ -278,6 +291,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 59
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.7721",
+        "known_error": 0,
+        "name": "RunJetHT2016H_reminiaod+RunJetHT2016H_reminiaod+REMINIAOD_data2016+HARVESTDR2_REMINIAOD_data2016",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -2392,6 +2428,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 165
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10824.5",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_pixelTrackingOnly_2018+HARVESTFull_pixelTrackingOnly_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 682
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
