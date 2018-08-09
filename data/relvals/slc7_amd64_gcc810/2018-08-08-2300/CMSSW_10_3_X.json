@@ -1277,19 +1277,19 @@
                 "warnings": 0
             },
             {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 151
+            },
+            {
+                "errors": 206,
+                "status": "PASSED",
+                "warnings": 5687
+            },
+            {
                 "errors": 33,
                 "status": "PASSED",
                 "warnings": 0
-            },
-            {
-                "errors": -1,
-                "status": "PASSED",
-                "warnings": -1
-            },
-            {
-                "errors": -1,
-                "status": "PASSED",
-                "warnings": -1
             }
         ]
     },
@@ -5096,6 +5096,52 @@
     },
     {
         "exitcode": 0,
+        "id": "1303.0",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500_13+ProdQCD_Pt_3000_3500_13+DIGIUP15PROD1+RECOPRODUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1303.17",
+        "known_error": 0,
+        "name": "ProdQCD_Pt_3000_3500_13UP17+ProdQCD_Pt_3000_3500_13UP17+DIGIUP17PROD1+RECOPRODUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.1",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingOnly+HARVESTUP15_trackingOnly",
@@ -6916,6 +6962,44 @@
                 "errors": 37,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10809.0",
+        "known_error": 0,
+        "name": "SingleMuPt1000+SingleMuPt1000_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 341
+            },
+            {
+                "errors": 28,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 67
             }
         ]
     },
