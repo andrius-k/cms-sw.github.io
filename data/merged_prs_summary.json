@@ -1906,7 +1906,13 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
-                "static_checks_failures": "not-found", 
+                "static_checks_failures": {
+                    "status": "found", 
+                    "arch": "slc6_amd64_gcc700", 
+                    "iterable": [
+                        "reports/modules2statics-filter1.txt\n"
+                    ]
+                }, 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2018-08-05-0000/slc6_amd64_gcc700"
                 }, 
@@ -1932,7 +1938,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.2-thu-11/CMSSW_10_2_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2458, 
+                            "num_passed": 2494, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -1965,12 +1971,15 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc6_amd64_gcc700"
+                }, 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
                 "igprof": "found", 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
@@ -16707,7 +16716,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3-thu-11/CMSSW_10_3_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1738, 
+                            "num_passed": 1853, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -30354,7 +30363,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/thu/9.4-thu-11/CMSSW_9_4_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1827, 
+                            "num_passed": 1835, 
                             "known_failed": 12, 
                             "num_failed": 0
                         }
