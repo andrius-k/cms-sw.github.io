@@ -72,7 +72,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/10.1-thu-11/CMSSW_10_1_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 920, 
+                            "num_passed": 1193, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -1932,7 +1932,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.2-thu-11/CMSSW_10_2_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1199, 
+                            "num_passed": 1294, 
                             "known_failed": 2, 
                             "num_failed": 0
                         }
@@ -9369,6 +9369,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
                         "title": "Made EcalDigiToRaw a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24105", 
@@ -9725,6 +9734,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
+                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
+                        "number": "24197", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "0b034bb2befdb54618f9f22eea19ca7ad0f8f0e2", 
                         "title": "GCC 8 Compiler Warnings, use vector erase", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24245", 
@@ -9732,24 +9750,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
-                    }, 
-                    {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cardinia"
-                    }, 
-                    {
-                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
-                        "title": "L1T muon offline DQM Fix dPhi calculation", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
-                        "number": "24238", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "thomreis"
                     }, 
                     {
                         "hash": "18feb1f5f12b04ee00b0897fd8034b611fc1d997", 
@@ -9761,13 +9761,31 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
-                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
-                        "number": "24197", 
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
+                        "title": "L1T muon offline DQM Fix dPhi calculation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
+                        "number": "24238", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }
                 ], 
                 "fwlite": [], 
@@ -9816,7 +9834,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3.CLANG-wed-23/CMSSW_10_3_CLANG_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2489, 
+                            "num_passed": 2513, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -11162,6 +11180,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
+                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
+                        "number": "24197", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "0b034bb2befdb54618f9f22eea19ca7ad0f8f0e2", 
                         "title": "GCC 8 Compiler Warnings, use vector erase", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24245", 
@@ -11169,24 +11196,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
-                    }, 
-                    {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cardinia"
-                    }, 
-                    {
-                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
-                        "title": "L1T muon offline DQM Fix dPhi calculation", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
-                        "number": "24238", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "thomreis"
                     }, 
                     {
                         "hash": "18feb1f5f12b04ee00b0897fd8034b611fc1d997", 
@@ -11198,13 +11207,31 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
-                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
-                        "number": "24197", 
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
+                        "title": "L1T muon offline DQM Fix dPhi calculation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
+                        "number": "24238", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }
                 ], 
                 "fwlite": [], 
@@ -12586,6 +12613,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
+                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
+                        "number": "24197", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "0b034bb2befdb54618f9f22eea19ca7ad0f8f0e2", 
                         "title": "GCC 8 Compiler Warnings, use vector erase", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24245", 
@@ -12593,24 +12629,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
-                    }, 
-                    {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cardinia"
-                    }, 
-                    {
-                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
-                        "title": "L1T muon offline DQM Fix dPhi calculation", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
-                        "number": "24238", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "thomreis"
                     }, 
                     {
                         "hash": "18feb1f5f12b04ee00b0897fd8034b611fc1d997", 
@@ -12622,13 +12640,31 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
-                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
-                        "number": "24197", 
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
+                        "title": "L1T muon offline DQM Fix dPhi calculation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
+                        "number": "24238", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }
                 ], 
                 "fwlite": [], 
@@ -14003,6 +14039,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
+                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
+                        "number": "24197", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "0b034bb2befdb54618f9f22eea19ca7ad0f8f0e2", 
                         "title": "GCC 8 Compiler Warnings, use vector erase", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24245", 
@@ -14010,24 +14055,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
-                    }, 
-                    {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cardinia"
-                    }, 
-                    {
-                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
-                        "title": "L1T muon offline DQM Fix dPhi calculation", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
-                        "number": "24238", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "thomreis"
                     }, 
                     {
                         "hash": "18feb1f5f12b04ee00b0897fd8034b611fc1d997", 
@@ -14039,13 +14066,31 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
-                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
-                        "number": "24197", 
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
+                        "title": "L1T muon offline DQM Fix dPhi calculation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
+                        "number": "24238", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }
                 ], 
                 "fwlite": [], 
@@ -15544,6 +15589,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
                         "title": "Made EcalDigiToRaw a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24105", 
@@ -16023,6 +16077,15 @@
                         "author_login": "makortel"
                     }, 
                     {
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
                         "hash": "ac8b513da70d9388356692d02068563a5a79946f", 
                         "title": "Made EcalDigiToRaw a global module", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24105", 
@@ -16391,6 +16454,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
+                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
+                        "number": "24197", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "bsunanda"
+                    }, 
+                    {
                         "hash": "0b034bb2befdb54618f9f22eea19ca7ad0f8f0e2", 
                         "title": "GCC 8 Compiler Warnings, use vector erase", 
                         "url": "https://github.com/cms-sw/cmssw/pull/24245", 
@@ -16398,24 +16470,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "wddgit"
-                    }, 
-                    {
-                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
-                        "title": "Sign change for translations in the Geometry Comparison Tool", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
-                        "number": "23829", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cardinia"
-                    }, 
-                    {
-                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
-                        "title": "L1T muon offline DQM Fix dPhi calculation", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
-                        "number": "24238", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "thomreis"
                     }, 
                     {
                         "hash": "18feb1f5f12b04ee00b0897fd8034b611fc1d997", 
@@ -16427,13 +16481,31 @@
                         "author_login": "Dr15Jones"
                     }, 
                     {
-                        "hash": "cbaa4d28a5bc410fa7482525cf53f7c451d0e93a", 
-                        "title": "Phase2-hgx136 Update hgcal geometry correcting recently reported bugs", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/24197", 
-                        "number": "24197", 
+                        "hash": "66c6b14fe182b158131c2e9e1cc00f0aca68ab41", 
+                        "title": "Replaced self assignment with a comment", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24252", 
+                        "number": "24252", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "bsunanda"
+                        "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "16061d1345a76ac21a1db3561e95b045336de7de", 
+                        "title": "L1T muon offline DQM Fix dPhi calculation", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/24238", 
+                        "number": "24238", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "thomreis"
+                    }, 
+                    {
+                        "hash": "274a926d37d9316b98078c5ce09fd0f473370d7c", 
+                        "title": "Sign change for translations in the Geometry Comparison Tool", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/23829", 
+                        "number": "23829", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cardinia"
                     }
                 ], 
                 "base_branch": "CMSSW_10_3_X", 
@@ -16488,7 +16560,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/wed/10.3-wed-23/CMSSW_10_3_X_2018-08-08-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2453, 
+                            "num_passed": 2461, 
                             "known_failed": 5, 
                             "num_failed": 0
                         }
@@ -28155,7 +28227,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4.AN-thu-11/CMSSW_9_4_AN_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 705, 
+                            "num_passed": 928, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28614,7 +28686,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4.MAOD-thu-11/CMSSW_9_4_MAOD_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 662, 
+                            "num_passed": 944, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30038,7 +30110,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/thu/9.4-thu-11/CMSSW_9_4_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 907, 
+                            "num_passed": 957, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -30049,7 +30121,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/thu/9.4-thu-11/CMSSW_9_4_X_2018-08-09-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1076, 
+                            "num_passed": 1140, 
                             "known_failed": 1, 
                             "num_failed": 0
                         }
