@@ -71,8 +71,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1370, 
-                        "known_failed": 0, 
+                        "num_passed": 1509, 
+                        "known_failed": 1, 
                         "num_failed": 0
                     }
                 }, 
@@ -82,7 +82,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1606, 
+                        "num_passed": 1883, 
                         "known_failed": 1, 
                         "num_failed": 1
                     }
@@ -93,8 +93,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-09-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1620, 
-                        "known_failed": 0, 
+                        "num_passed": 1678, 
+                        "known_failed": 1, 
                         "num_failed": 0
                     }
                 }
@@ -2637,9 +2637,7 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "tests_archs": [
-                "slc7_amd64_gcc810"
-            ], 
+            "tests_archs": [], 
             "static_checks_failures": {
                 "status": "found", 
                 "arch": "slc6_amd64_gcc700", 
@@ -2658,48 +2656,15 @@
             "dqm_tests": "found", 
             "check_headers": "found", 
             "ib_date": "2018-08-02-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc810", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2389, 
-                        "known_failed": 18, 
-                        "num_failed": 49
-                    }
-                }
-            ], 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc810", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-02-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "8"
-                    }
-                }
-            ], 
+            "relvals": [], 
+            "utests": [], 
             "release_queue": "CMSSW_10_3_X", 
             "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_3_X_2018-08-02-2300/slc6_amd64_gcc700/-GenuineIntel/matrix-results", 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
             "base_branch": "CMSSW_10_3_X", 
             "release_name": "CMSSW_10_3_X_2018-08-02-2300", 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc810", 
-                    "passed": "error", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-02-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "compWarning": 40, 
-                        "miscError": 8, 
-                        "compError": 40, 
-                        "ignoreWarning": 31805
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": {
                 "status": "passed", 
@@ -2712,14 +2677,7 @@
             "static_checks": "slc6_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc810", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc810/www/thu/10.3-thu-23/CMSSW_10_3_X_2018-08-02-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "found"
         }, 
         {
